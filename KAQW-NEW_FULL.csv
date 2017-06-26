@@ -1,0 +1,589 @@
+	Time Stamps	Temp	Dew Point	Humidity	Pressure	Visibility	Wind Direction	Wind Speed	Gust Speed	Precipitation	Events	Conditions
+0	7/27/1996 -- 12:52 AM	62.1 °F	62.1 °F	100%	29.98 in	0.2 mi	Calm	Calm	  -	N/A	Fog	Fog
+1	7/27/1996 -- 1:52 AM	61.0 °F	61.0 °F	100%	29.99 in	0.2 mi	Calm	Calm	  -	N/A	Fog	Fog
+2	7/27/1996 -- 2:52 AM	60.1 °F	60.1 °F	100%	30.00 in	0.2 mi	Calm	Calm	  -	N/A	Fog	Fog
+3	7/27/1996 -- 3:52 AM	59.0 °F	59.0 °F	100%	30.01 in	0.2 mi	Calm	Calm	  -	N/A	Fog	Fog
+4	7/27/1996 -- 4:52 AM	59.0 °F	59.0 °F	100%	30.03 in	0.5 mi	Calm	Calm	  -	N/A	Fog	Fog
+5	7/27/1996 -- 5:52 AM	59.0 °F	59.0 °F	100%	30.03 in	4.0 mi	Calm	Calm	  -	N/A	"	 "	Mostly Cloudy
+6	7/27/1996 -- 6:52 AM	60.1 °F	60.1 °F	100%	30.04 in	8.0 mi	Calm	Calm	  -	N/A	"	 "	Overcast
+7	7/27/1996 -- 7:52 AM	63.0 °F	62.1 °F	97%	30.04 in	9.0 mi	West	3.5 mph	  -	N/A	"	 "	Overcast
+8	7/27/1996 -- 8:52 AM	66.0 °F	62.1 °F	87%	30.05 in	10.0 mi	West	8.1 mph	  -	N/A	"	 "	Overcast
+9	7/27/1996 -- 9:52 AM	69.1 °F	61.0 °F	75%	30.06 in	10.0 mi	WSW	10.4 mph	  -	N/A	"	 "	Partly Cloudy
+10	7/27/1996 -- 10:52 AM	70.0 °F	60.1 °F	71%	30.06 in	10.0 mi	Variable	6.9 mph	16.1 mph	N/A	"	 "	Scattered Clouds
+11	7/27/1996 -- 11:52 AM	71.1 °F	61.0 °F	70%	30.06 in	10.0 mi	NNW	5.8 mph	  -	N/A	"	 "	Mostly Cloudy
+12	7/27/1996 -- 12:52 PM	71.1 °F	61.0 °F	70%	30.08 in	10.0 mi	Variable	4.6 mph	  -	N/A	"	 "	Overcast
+13	7/27/1996 -- 1:52 PM	73.0 °F	60.1 °F	64%	30.07 in	10.0 mi	Variable	6.9 mph	  -	N/A	"	 "	Overcast
+14	7/27/1996 -- 2:52 PM	72.0 °F	61.0 °F	68%	30.08 in	10.0 mi	West	8.1 mph	  -	N/A	"	 "	Overcast
+15	7/27/1996 -- 3:52 PM	71.1 °F	64.9 °F	81%	30.08 in	9.0 mi	Variable	3.5 mph	  -	N/A	Rain	Light Rain
+16	7/27/1996 -- 4:52 PM	73.9 °F	64.9 °F	73%	30.08 in	10.0 mi	SSW	5.8 mph	  -	N/A	"	 "	Mostly Cloudy
+17	7/27/1996 -- 5:52 PM	75.0 °F	62.1 °F	64%	30.09 in	10.0 mi	WSW	12.7 mph	16.1 mph	N/A	"	 "	Partly Cloudy
+18	7/27/1996 -- 6:52 PM	73.0 °F	59.0 °F	61%	30.10 in	10.0 mi	West	10.4 mph	  -	N/A	"	 "	Scattered Clouds
+19	7/27/1996 -- 7:52 PM	70.0 °F	60.1 °F	71%	30.11 in	10.0 mi	West	9.2 mph	  -	N/A	"	 "	Partly Cloudy
+20	7/27/1996 -- 8:52 PM	66.9 °F	61.0 °F	81%	30.13 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+21	7/27/1996 -- 9:52 PM	64.0 °F	61.0 °F	90%	30.15 in	10.0 mi	East	4.6 mph	  -	N/A	"	 "	Scattered Clouds
+22	7/27/1996 -- 10:52 PM	64.9 °F	62.1 °F	90%	30.17 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Mostly Cloudy
+23	7/27/1996 -- 11:52 PM	63.0 °F	62.1 °F	97%	30.19 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Mostly Cloudy
+24	7/26/1996 -- 12:52 AM	70.0 °F	68.0 °F	93%	29.94 in	4.0 mi	East	5.8 mph	  -	N/A	"	 "	Overcast
+25	7/26/1996 -- 1:52 AM	70.0 °F	68.0 °F	93%	29.93 in	4.0 mi	East	5.8 mph	  -	N/A	"	 "	Overcast
+26	7/26/1996 -- 2:52 AM	69.1 °F	68.0 °F	96%	29.93 in	4.0 mi	Calm	Calm	  -	N/A	Rain	Light Rain
+27	7/26/1996 -- 3:52 AM	68.0 °F	68.0 °F	100%	29.91 in	2.0 mi	Calm	Calm	  -	N/A	Rain	Light Rain
+28	7/26/1996 -- 4:52 AM	68.0 °F	68.0 °F	100%	29.91 in	1.5 mi	Calm	Calm	  -	N/A	Rain	Light Rain
+29	7/26/1996 -- 5:52 AM	68.0 °F	68.0 °F	100%	29.92 in	1.5 mi	Calm	Calm	  -	N/A	Rain	Light Rain
+30	7/26/1996 -- 6:52 AM	68.0 °F	68.0 °F	100%	29.92 in	1.5 mi	ENE	3.5 mph	  -	N/A	Rain	Light Rain
+31	7/26/1996 -- 7:52 AM	69.1 °F	68.0 °F	96%	29.94 in	1.5 mi	Calm	Calm	  -	N/A	Rain	Light Rain
+32	7/26/1996 -- 8:52 AM	69.1 °F	68.0 °F	96%	29.93 in	5.0 mi	Calm	Calm	  -	N/A	Rain	Light Rain
+33	7/26/1996 -- 9:52 AM	69.1 °F	68.0 °F	96%	29.93 in	5.0 mi	Variable	4.6 mph	  -	N/A	"	 "	Partly Cloudy
+34	7/26/1996 -- 10:52 AM	71.1 °F	68.0 °F	90%	29.94 in	7.0 mi	Calm	Calm	  -	N/A	"	 "	Overcast
+35	7/26/1996 -- 11:52 AM	71.1 °F	66.9 °F	87%	29.94 in	8.0 mi	Calm	Calm	  -	N/A	"	 "	Overcast
+36	7/26/1996 -- 12:52 PM	75.0 °F	68.0 °F	79%	29.92 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Mostly Cloudy
+37	7/26/1996 -- 1:52 PM	78.1 °F	68.0 °F	71%	29.90 in	10.0 mi	Variable	3.5 mph	  -	N/A	"	 "	Partly Cloudy
+38	7/26/1996 -- 2:52 PM	78.1 °F	66.0 °F	66%	29.88 in	10.0 mi	Variable	4.6 mph	  -	N/A	"	 "	Scattered Clouds
+39	7/26/1996 -- 3:52 PM	81.0 °F	66.9 °F	62%	29.87 in	10.0 mi	NNW	5.8 mph	  -	N/A	"	 "	Partly Cloudy
+40	7/26/1996 -- 4:52 PM	80.1 °F	64.9 °F	60%	29.88 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Partly Cloudy
+41	7/26/1996 -- 5:52 PM	78.1 °F	66.0 °F	66%	29.89 in	10.0 mi	Variable	4.6 mph	  -	N/A	"	 "	Scattered Clouds
+42	7/26/1996 -- 6:52 PM	73.0 °F	61.0 °F	66%	29.92 in	10.0 mi	SW	6.9 mph	  -	N/A	"	 "	Clear
+43	7/26/1996 -- 7:52 PM	70.0 °F	62.1 °F	76%	29.95 in	10.0 mi	Variable	3.5 mph	  -	N/A	"	 "	Mostly Cloudy
+44	7/26/1996 -- 8:52 PM	64.9 °F	62.1 °F	90%	29.96 in	5.0 mi	NW	3.5 mph	  -	N/A	Rain	Rain
+45	7/25/1996 -- 12:52 AM	66.9 °F	66.0 °F	97%	29.99 in	3.0 mi	Calm	Calm	  -	N/A	"	 "	Partly Cloudy
+46	7/25/1996 -- 1:52 AM	68.0 °F	66.9 °F	96%	29.99 in	3.0 mi	East	4.6 mph	  -	N/A	"	 "	Overcast
+47	7/25/1996 -- 2:52 AM	66.9 °F	66.0 °F	97%	29.99 in	3.0 mi	Calm	Calm	  -	N/A	"	 "	Partly Cloudy
+48	7/25/1996 -- 3:52 AM	66.0 °F	64.9 °F	96%	29.98 in	1.8 mi	Calm	Calm	  -	N/A	"	 "	Partly Cloudy
+49	7/25/1996 -- 4:52 AM	64.9 °F	64.9 °F	100%	29.98 in	1.8 mi	ESE	4.6 mph	  -	N/A	"	 "	Clear
+50	7/25/1996 -- 5:52 AM	64.9 °F	64.9 °F	100%	29.99 in	1.5 mi	Calm	Calm	  -	N/A	"	 "	Mostly Cloudy
+51	7/25/1996 -- 6:52 AM	68.0 °F	66.9 °F	96%	29.99 in	1.8 mi	East	3.5 mph	  -	N/A	"	 "	Mostly Cloudy
+52	7/25/1996 -- 7:52 AM	72.0 °F	68.0 °F	87%	30.00 in	2.5 mi	Calm	Calm	  -	N/A	"	 "	Scattered Clouds
+53	7/25/1996 -- 8:52 AM	73.9 °F	69.1 °F	85%	30.00 in	2.5 mi	Calm	Calm	  -	N/A	"	 "	Haze
+54	7/25/1996 -- 9:52 AM	75.0 °F	66.9 °F	76%	29.99 in	3.0 mi	Variable	4.6 mph	  -	N/A	"	 "	Haze
+55	7/25/1996 -- 11:52 AM	75.0 °F	66.9 °F	76%	30.00 in	3.0 mi	SSW	9.2 mph	  -	0.00 in	Rain	Light Rain
+56	7/25/1996 -- 12:52 PM	77.0 °F	68.0 °F	74%	29.99 in	3.0 mi	SSW	10.4 mph	  -	0.00 in	"	 "	Haze
+57	7/25/1996 -- 1:52 PM	78.1 °F	68.0 °F	71%	29.97 in	3.0 mi	Variable	6.9 mph	16.1 mph	N/A	"	 "	Haze
+58	7/25/1996 -- 2:52 PM	80.1 °F	68.0 °F	67%	29.96 in	3.0 mi	WSW	8.1 mph	  -	N/A	"	 "	Haze
+59	7/25/1996 -- 3:52 PM	75.9 °F	70.0 °F	82%	29.96 in	1.5 mi	SW	6.9 mph	  -	0.00 in	Rain	Rain
+60	7/25/1996 -- 4:52 PM	75.0 °F	71.1 °F	87%	29.94 in	2.0 mi	ENE	4.6 mph	  -	N/A	Rain	Light Rain
+61	7/25/1996 -- 5:52 PM	77.0 °F	71.1 °F	82%	29.92 in	2.5 mi	Calm	Calm	  -	N/A	"	 "	Haze
+62	7/25/1996 -- 6:52 PM	75.0 °F	71.1 °F	87%	29.92 in	2.5 mi	NW	4.6 mph	  -	N/A	"	 "	Clear
+63	7/25/1996 -- 7:52 PM	73.0 °F	71.1 °F	93%	29.94 in	2.5 mi	Calm	Calm	  -	N/A	"	 "	Clear
+64	7/25/1996 -- 8:52 PM	71.1 °F	69.1 °F	93%	29.95 in	3.0 mi	Calm	Calm	  -	N/A	"	 "	Partly Cloudy
+65	7/25/1996 -- 9:52 PM	75.0 °F	69.1 °F	82%	29.97 in	4.0 mi	SSW	11.5 mph	17.3 mph	N/A	"	 "	Haze
+66	7/25/1996 -- 10:52 PM	73.0 °F	66.9 °F	81%	29.97 in	7.0 mi	SW	12.7 mph	  -	N/A	"	 "	Overcast
+67	7/25/1996 -- 11:52 PM	71.1 °F	68.0 °F	90%	29.95 in	5.0 mi	Variable	4.6 mph	  -	N/A	"	 "	Mostly Cloudy
+68	7/24/1996 -- 12:52 AM	60.1 °F	60.1 °F	100%	29.94 in	8.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+69	7/24/1996 -- 1:52 AM	57.9 °F	57.9 °F	100%	29.94 in	8.0 mi	Calm	Calm	  -	N/A	"	 "	Scattered Clouds
+70	7/24/1996 -- 2:52 AM	61.0 °F	61.0 °F	100%	29.95 in	4.0 mi	Calm	Calm	  -	N/A	"	 "	Overcast
+71	7/24/1996 -- 3:52 AM	62.1 °F	61.0 °F	96%	29.96 in	8.0 mi	Calm	Calm	  -	N/A	"	 "	Overcast
+72	7/24/1996 -- 4:52 AM	62.1 °F	61.0 °F	96%	29.95 in	8.0 mi	Calm	Calm	  -	N/A	"	 "	Overcast
+73	7/24/1996 -- 5:52 AM	62.1 °F	61.0 °F	96%	29.97 in	8.0 mi	Calm	Calm	  -	N/A	"	 "	Overcast
+74	7/24/1996 -- 6:52 AM	63.0 °F	62.1 °F	97%	29.99 in	10.0 mi	ESE	4.6 mph	  -	N/A	"	 "	Overcast
+75	7/24/1996 -- 7:52 AM	64.0 °F	62.1 °F	93%	30.00 in	7.0 mi	East	4.6 mph	  -	N/A	"	 "	Overcast
+76	7/24/1996 -- 8:52 AM	68.0 °F	63.0 °F	84%	30.00 in	10.0 mi	Variable	3.5 mph	  -	N/A	"	 "	Overcast
+77	7/24/1996 -- 9:52 AM	71.1 °F	64.0 °F	78%	29.99 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+78	7/24/1996 -- 10:52 AM	75.9 °F	64.9 °F	69%	29.99 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+79	7/24/1996 -- 11:52 AM	80.1 °F	61.0 °F	52%	29.99 in	10.0 mi	Variable	3.5 mph	  -	N/A	"	 "	Clear
+80	7/24/1996 -- 1:52 PM	82.0 °F	64.9 °F	56%	29.97 in	10.0 mi	ESE	6.9 mph	  -	N/A	"	 "	Scattered Clouds
+81	7/24/1996 -- 2:52 PM	82.9 °F	64.0 °F	53%	29.96 in	10.0 mi	Variable	5.8 mph	  -	N/A	"	 "	Partly Cloudy
+82	7/24/1996 -- 3:52 PM	82.0 °F	66.0 °F	58%	29.96 in	10.0 mi	Variable	5.8 mph	  -	N/A	"	 "	Scattered Clouds
+83	7/24/1996 -- 4:52 PM	82.9 °F	66.0 °F	56%	29.95 in	10.0 mi	Variable	6.9 mph	  -	N/A	"	 "	Partly Cloudy
+84	7/24/1996 -- 5:52 PM	82.0 °F	64.0 °F	54%	29.94 in	10.0 mi	South	6.9 mph	  -	N/A	"	 "	Clear
+85	7/24/1996 -- 6:52 PM	81.0 °F	66.9 °F	62%	29.94 in	10.0 mi	SW	5.8 mph	  -	N/A	"	 "	Clear
+86	7/24/1996 -- 7:52 PM	75.9 °F	69.1 °F	79%	29.95 in	7.0 mi	East	3.5 mph	  -	N/A	"	 "	Clear
+87	7/24/1996 -- 8:52 PM	71.1 °F	68.0 °F	90%	29.97 in	6.0 mi	Calm	Calm	  -	N/A	"	 "	Partly Cloudy
+88	7/24/1996 -- 9:52 PM	68.0 °F	66.9 °F	96%	29.99 in	4.0 mi	South	3.5 mph	  -	N/A	"	 "	Clear
+89	7/24/1996 -- 10:52 PM	68.0 °F	66.0 °F	93%	29.99 in	4.0 mi	South	4.6 mph	  -	N/A	"	 "	Clear
+90	7/24/1996 -- 11:52 PM	66.9 °F	66.0 °F	97%	29.99 in	3.0 mi	Calm	Calm	  -	N/A	"	 "	Partly Cloudy
+91	7/23/1996 -- 12:52 AM	59.0 °F	55.9 °F	90%	29.93 in	10.0 mi	ESE	4.6 mph	  -	N/A	"	 "	Clear
+92	7/23/1996 -- 1:52 AM	57.9 °F	55.9 °F	93%	29.92 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+93	7/23/1996 -- 2:52 AM	55.9 °F	55.9 °F	100%	29.91 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+94	7/23/1996 -- 3:52 AM	55.9 °F	55.0 °F	97%	29.90 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Scattered Clouds
+95	7/23/1996 -- 4:52 AM	59.0 °F	57.0 °F	93%	29.89 in	10.0 mi	Variable	3.5 mph	  -	N/A	"	 "	Overcast
+96	7/23/1996 -- 5:52 AM	60.1 °F	57.9 °F	93%	29.90 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Overcast
+97	7/23/1996 -- 6:52 AM	60.1 °F	59.0 °F	96%	29.90 in	10.0 mi	ESE	5.8 mph	  -	N/A	"	 "	Overcast
+98	7/23/1996 -- 9:52 AM	64.9 °F	62.1 °F	90%	29.93 in	10.0 mi	Calm	Calm	  -	0.00 in	"	 "	Overcast
+99	7/23/1996 -- 10:52 AM	68.0 °F	62.1 °F	81%	29.92 in	10.0 mi	East	4.6 mph	  -	N/A	"	 "	Overcast
+100	7/23/1996 -- 11:52 AM	69.1 °F	62.1 °F	78%	29.91 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Overcast
+101	7/23/1996 -- 2:52 PM	71.1 °F	63.0 °F	75%	29.89 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Overcast
+102	7/23/1996 -- 3:52 PM	71.1 °F	63.0 °F	75%	29.88 in	10.0 mi	East	5.8 mph	  -	N/A	"	 "	Overcast
+103	7/23/1996 -- 4:52 PM	70.0 °F	63.0 °F	78%	29.88 in	10.0 mi	East	4.6 mph	  -	N/A	"	 "	Overcast
+104	7/23/1996 -- 5:52 PM	69.1 °F	63.0 °F	81%	29.89 in	10.0 mi	Variable	3.5 mph	  -	N/A	"	 "	Overcast
+105	7/23/1996 -- 6:52 PM	69.1 °F	63.0 °F	81%	29.89 in	10.0 mi	Variable	3.5 mph	  -	N/A	"	 "	Overcast
+106	7/23/1996 -- 7:52 PM	68.0 °F	63.0 °F	84%	29.89 in	10.0 mi	ENE	5.8 mph	  -	N/A	"	 "	Overcast
+107	7/23/1996 -- 8:52 PM	66.9 °F	63.0 °F	87%	29.91 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Overcast
+108	7/23/1996 -- 9:52 PM	66.9 °F	63.0 °F	87%	29.92 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Overcast
+109	7/23/1996 -- 11:52 PM	63.0 °F	62.1 °F	97%	29.94 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Overcast
+110	7/22/1996 -- 12:52 AM	57.0 °F	55.0 °F	93%	29.97 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+111	7/22/1996 -- 1:52 AM	55.9 °F	54.0 °F	93%	29.98 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+112	7/22/1996 -- 2:52 AM	53.1 °F	53.1 °F	100%	29.98 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+113	7/22/1996 -- 3:52 AM	51.1 °F	51.1 °F	100%	29.97 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+114	7/22/1996 -- 4:52 AM	51.1 °F	51.1 °F	100%	29.97 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+115	7/22/1996 -- 5:52 AM	50.0 °F	50.0 °F	100%	29.98 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+116	7/22/1996 -- 6:52 AM	55.0 °F	53.1 °F	93%	29.98 in	10.0 mi	SE	3.5 mph	  -	N/A	"	 "	Clear
+117	7/22/1996 -- 7:52 AM	55.9 °F	54.0 °F	93%	29.99 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+118	7/22/1996 -- 8:52 AM	62.1 °F	57.0 °F	84%	29.98 in	10.0 mi	Variable	3.5 mph	  -	N/A	"	 "	Clear
+119	7/22/1996 -- 9:52 AM	69.1 °F	55.9 °F	63%	29.97 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+120	7/22/1996 -- 10:52 AM	72.0 °F	57.0 °F	59%	29.95 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+121	7/22/1996 -- 11:52 AM	77.0 °F	59.0 °F	54%	29.94 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+122	7/22/1996 -- 12:52 PM	79.0 °F	57.0 °F	47%	29.94 in	10.0 mi	WSW	9.2 mph	  -	N/A	"	 "	Partly Cloudy
+123	7/22/1996 -- 1:52 PM	79.0 °F	54.0 °F	42%	29.92 in	9.0 mi	WSW	8.1 mph	  -	N/A	"	 "	Clear
+124	7/22/1996 -- 3:52 PM	81.0 °F	53.1 °F	38%	29.90 in	10.0 mi	Variable	5.8 mph	  -	N/A	"	 "	Clear
+125	7/22/1996 -- 4:52 PM	81.0 °F	55.0 °F	41%	29.90 in	10.0 mi	SW	5.8 mph	  -	N/A	"	 "	Clear
+126	7/22/1996 -- 5:52 PM	81.0 °F	55.0 °F	41%	29.89 in	10.0 mi	Variable	3.5 mph	  -	N/A	"	 "	Clear
+127	7/22/1996 -- 6:52 PM	79.0 °F	55.9 °F	45%	29.89 in	10.0 mi	SSW	3.5 mph	  -	N/A	"	 "	Clear
+128	7/22/1996 -- 8:52 PM	64.0 °F	60.1 °F	87%	29.92 in	10.0 mi	ENE	3.5 mph	  -	N/A	"	 "	Clear
+129	7/22/1996 -- 9:52 PM	60.1 °F	59.0 °F	96%	29.93 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+130	7/22/1996 -- 10:52 PM	57.9 °F	57.0 °F	97%	29.93 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+131	7/22/1996 -- 11:52 PM	57.9 °F	57.0 °F	97%	29.93 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+132	7/21/1996 -- 12:52 AM	66.9 °F	50.0 °F	54%	29.69 in	10.0 mi	West	17.3 mph	23.0 mph	N/A	"	 "	Mostly Cloudy
+133	7/21/1996 -- 1:52 AM	64.0 °F	52.0 °F	65%	29.70 in	10.0 mi	WSW	11.5 mph	20.7 mph	N/A	"	 "	Clear
+134	7/21/1996 -- 2:52 AM	64.0 °F	50.0 °F	60%	29.71 in	10.0 mi	West	9.2 mph	  -	N/A	"	 "	Clear
+135	7/21/1996 -- 3:52 AM	62.1 °F	51.1 °F	67%	29.71 in	10.0 mi	Variable	5.8 mph	  -	N/A	"	 "	Clear
+136	7/21/1996 -- 4:52 AM	61.0 °F	51.1 °F	70%	29.73 in	10.0 mi	WSW	12.7 mph	  -	N/A	"	 "	Clear
+137	7/21/1996 -- 5:52 AM	60.1 °F	50.0 °F	69%	29.74 in	10.0 mi	WSW	6.9 mph	  -	N/A	"	 "	Clear
+138	7/21/1996 -- 6:52 AM	62.1 °F	51.1 °F	67%	29.75 in	10.0 mi	WSW	11.5 mph	  -	N/A	"	 "	Clear
+139	7/21/1996 -- 7:52 AM	64.0 °F	52.0 °F	65%	29.76 in	10.0 mi	West	13.8 mph	19.6 mph	N/A	"	 "	Clear
+140	7/21/1996 -- 8:52 AM	66.9 °F	52.0 °F	59%	29.76 in	10.0 mi	West	12.7 mph	19.6 mph	N/A	"	 "	Clear
+141	7/21/1996 -- 9:52 AM	69.1 °F	51.1 °F	53%	29.77 in	10.0 mi	West	11.5 mph	21.9 mph	N/A	"	 "	Clear
+142	7/21/1996 -- 10:52 AM	70.0 °F	52.0 °F	53%	29.78 in	10.0 mi	West	15.0 mph	23.0 mph	N/A	"	 "	Partly Cloudy
+143	7/21/1996 -- 11:52 AM	72.0 °F	54.0 °F	53%	29.78 in	10.0 mi	West	17.3 mph	23.0 mph	N/A	"	 "	Partly Cloudy
+144	7/21/1996 -- 12:52 PM	75.0 °F	51.1 °F	43%	29.78 in	10.0 mi	West	11.5 mph	  -	N/A	"	 "	Partly Cloudy
+145	7/21/1996 -- 1:52 PM	77.0 °F	48.9 °F	37%	29.78 in	10.0 mi	West	12.7 mph	19.6 mph	N/A	"	 "	Clear
+146	7/21/1996 -- 2:52 PM	79.0 °F	50.0 °F	36%	29.78 in	10.0 mi	West	15.0 mph	21.9 mph	N/A	"	 "	Clear
+147	7/21/1996 -- 3:52 PM	79.0 °F	48.9 °F	35%	29.78 in	10.0 mi	WNW	11.5 mph	16.1 mph	N/A	"	 "	Clear
+148	7/21/1996 -- 4:52 PM	78.1 °F	54.0 °F	43%	29.79 in	10.0 mi	West	10.4 mph	20.7 mph	N/A	"	 "	Clear
+149	7/21/1996 -- 5:52 PM	78.1 °F	55.0 °F	45%	29.79 in	10.0 mi	West	11.5 mph	  -	N/A	"	 "	Clear
+150	7/21/1996 -- 6:52 PM	75.9 °F	55.9 °F	50%	29.83 in	10.0 mi	West	10.4 mph	  -	N/A	"	 "	Clear
+151	7/21/1996 -- 7:52 PM	72.0 °F	55.9 °F	57%	29.85 in	10.0 mi	WSW	8.1 mph	  -	N/A	"	 "	Clear
+152	7/21/1996 -- 8:52 PM	66.0 °F	57.0 °F	73%	29.89 in	10.0 mi	West	3.5 mph	  -	N/A	"	 "	Clear
+153	7/21/1996 -- 9:52 PM	62.1 °F	59.0 °F	90%	29.92 in	10.0 mi	NNE	4.6 mph	  -	N/A	"	 "	Clear
+154	7/21/1996 -- 10:52 PM	59.0 °F	57.0 °F	93%	29.93 in	10.0 mi	SE	3.5 mph	  -	N/A	"	 "	Clear
+155	7/21/1996 -- 11:52 PM	59.0 °F	55.9 °F	90%	29.96 in	10.0 mi	ESE	5.8 mph	  -	N/A	"	 "	Clear
+156	7/20/1996 -- 12:52 AM	66.0 °F	54.0 °F	65%	29.56 in	10.0 mi	West	12.7 mph	27.6 mph	N/A	"	 "	Scattered Clouds
+157	7/20/1996 -- 1:52 AM	64.0 °F	52.0 °F	65%	29.59 in	10.0 mi	West	11.5 mph	20.7 mph	N/A	"	 "	Scattered Clouds
+158	7/20/1996 -- 2:52 AM	64.0 °F	52.0 °F	65%	29.61 in	10.0 mi	West	9.2 mph	18.4 mph	N/A	"	 "	Overcast
+159	7/20/1996 -- 3:52 AM	62.1 °F	52.0 °F	70%	29.61 in	10.0 mi	West	11.5 mph	18.4 mph	N/A	"	 "	Clear
+160	7/20/1996 -- 4:52 AM	62.1 °F	52.0 °F	70%	29.60 in	10.0 mi	West	13.8 mph	27.6 mph	N/A	"	 "	Partly Cloudy
+161	7/20/1996 -- 5:52 AM	61.0 °F	53.1 °F	75%	29.61 in	10.0 mi	West	17.3 mph	20.7 mph	N/A	"	 "	Scattered Clouds
+162	7/20/1996 -- 6:52 AM	61.0 °F	51.1 °F	70%	29.62 in	10.0 mi	West	15.0 mph	27.6 mph	N/A	"	 "	Overcast
+163	7/20/1996 -- 8:52 AM	62.1 °F	50.0 °F	65%	29.64 in	10.0 mi	West	18.4 mph	33.4 mph	N/A	"	 "	Mostly Cloudy
+164	7/20/1996 -- 9:52 AM	61.0 °F	50.0 °F	67%	29.65 in	10.0 mi	West	11.5 mph	25.3 mph	N/A	"	 "	Overcast
+165	7/20/1996 -- 10:52 AM	62.1 °F	51.1 °F	67%	29.63 in	10.0 mi	West	18.4 mph	21.9 mph	N/A	"	 "	Overcast
+166	7/20/1996 -- 11:52 AM	64.9 °F	50.0 °F	58%	29.62 in	10.0 mi	WNW	11.5 mph	23.0 mph	N/A	"	 "	Overcast
+167	7/20/1996 -- 12:52 PM	68.0 °F	51.1 °F	55%	29.60 in	10.0 mi	West	16.1 mph	25.3 mph	N/A	"	 "	Mostly Cloudy
+168	7/20/1996 -- 1:52 PM	66.0 °F	48.9 °F	54%	29.60 in	10.0 mi	West	16.1 mph	24.2 mph	N/A	"	 "	Overcast
+169	7/20/1996 -- 2:52 PM	66.9 °F	48.9 °F	52%	29.61 in	10.0 mi	West	20.7 mph	33.4 mph	N/A	"	 "	Overcast
+170	7/20/1996 -- 3:52 PM	66.9 °F	51.1 °F	57%	29.60 in	10.0 mi	West	16.1 mph	20.7 mph	N/A	"	 "	Overcast
+171	7/20/1996 -- 4:52 PM	69.1 °F	55.0 °F	61%	29.60 in	10.0 mi	WSW	17.3 mph	21.9 mph	N/A	"	 "	Overcast
+172	7/20/1996 -- 5:52 PM	69.1 °F	48.9 °F	49%	29.61 in	10.0 mi	West	19.6 mph	27.6 mph	N/A	"	 "	Overcast
+173	7/20/1996 -- 6:52 PM	69.1 °F	48.9 °F	49%	29.63 in	10.0 mi	West	13.8 mph	  -	N/A	"	 "	Overcast
+174	7/20/1996 -- 7:52 PM	69.1 °F	48.9 °F	49%	29.63 in	10.0 mi	West	17.3 mph	28.8 mph	0.00 in	"	 "	Overcast
+175	7/20/1996 -- 8:52 PM	68.0 °F	51.1 °F	55%	29.65 in	10.0 mi	West	15.0 mph	20.7 mph	0.00 in	"	 "	Overcast
+176	7/20/1996 -- 9:52 PM	68.0 °F	52.0 °F	56%	29.67 in	10.0 mi	West	19.6 mph	29.9 mph	N/A	"	 "	Overcast
+177	7/20/1996 -- 10:52 PM	68.0 °F	51.1 °F	55%	29.68 in	10.0 mi	WSW	16.1 mph	26.5 mph	N/A	"	 "	Overcast
+178	7/20/1996 -- 11:52 PM	66.9 °F	52.0 °F	59%	29.68 in	10.0 mi	WSW	16.1 mph	26.5 mph	N/A	"	 "	Overcast
+179	7/19/1996 -- 12:52 AM	70.0 °F	66.0 °F	87%	29.87 in	8.0 mi	Variable	6.9 mph	  -	N/A	"	 "	Clear
+180	7/19/1996 -- 1:52 AM	69.1 °F	66.0 °F	90%	29.85 in	7.0 mi	East	9.2 mph	  -	N/A	"	 "	Scattered Clouds
+181	7/19/1996 -- 2:52 AM	68.0 °F	64.9 °F	90%	29.82 in	6.0 mi	East	9.2 mph	  -	N/A	"	 "	Clear
+182	7/19/1996 -- 3:52 AM	68.0 °F	66.0 °F	93%	29.77 in	6.0 mi	East	6.9 mph	  -	N/A	"	 "	Mostly Cloudy
+183	7/19/1996 -- 4:52 AM	68.0 °F	66.0 °F	93%	29.73 in	6.0 mi	ESE	6.9 mph	  -	N/A	"	 "	Mostly Cloudy
+184	7/19/1996 -- 5:52 AM	68.0 °F	66.0 °F	93%	29.72 in	3.0 mi	Calm	Calm	  -	N/A	"	 "	Overcast
+185	7/19/1996 -- 6:01 AM	69.8 °F	66.2 °F	88%	29.73 in	3.0 mi	Calm	Calm	  -	N/A	"	 "	Mostly Cloudy
+186	7/19/1996 -- 6:52 AM	71.1 °F	68.0 °F	90%	29.70 in	3.0 mi	Variable	5.8 mph	  -	N/A	"	 "	Overcast
+187	7/19/1996 -- 7:52 AM	71.1 °F	70.0 °F	96%	29.69 in	2.5 mi	Calm	Calm	  -	0.00 in	Rain	Light Rain
+188	7/19/1996 -- 9:19 AM	75.2 °F	71.6 °F	89%	29.65 in	6.0 mi	Calm	Calm	  -	N/A	"	 "	Mostly Cloudy
+189	7/19/1996 -- 9:52 AM	75.9 °F	69.1 °F	79%	29.62 in	8.0 mi	South	9.2 mph	  -	N/A	"	 "	Overcast
+190	7/19/1996 -- 10:52 AM	75.9 °F	70.0 °F	82%	29.56 in	8.0 mi	Variable	6.9 mph	  -	N/A	"	 "	Mostly Cloudy
+191	7/19/1996 -- 11:12 AM	77.0 °F	71.6 °F	83%	29.55 in	8.0 mi	Calm	Calm	  -	N/A	"	 "	Mostly Cloudy
+192	7/19/1996 -- 11:52 AM	78.1 °F	69.1 °F	74%	29.52 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Mostly Cloudy
+193	7/19/1996 -- 1:52 PM	80.1 °F	69.1 °F	69%	29.47 in	10.0 mi	West	8.1 mph	  -	N/A	"	 "	Scattered Clouds
+194	7/19/1996 -- 2:52 PM	77.0 °F	70.0 °F	79%	29.44 in	4.0 mi	SSW	8.1 mph	  -	0.00 in	Rain	Light Rain
+195	7/19/1996 -- 3:52 PM	75.0 °F	73.0 °F	94%	29.41 in	3.0 mi	East	4.6 mph	  -	0.00 in	Rain	Rain
+196	7/19/1996 -- 4:52 PM	73.9 °F	72.0 °F	93%	29.38 in	4.0 mi	Variable	6.9 mph	  -	N/A	Rain	Light Rain
+197	7/19/1996 -- 5:52 PM	75.0 °F	71.1 °F	87%	29.39 in	10.0 mi	West	12.7 mph	  -	0.00 in	"	 "	Overcast
+198	7/19/1996 -- 6:52 PM	75.0 °F	70.0 °F	84%	29.40 in	10.0 mi	WSW	18.4 mph	24.2 mph	N/A	"	 "	Overcast
+199	7/19/1996 -- 7:52 PM	75.9 °F	69.1 °F	79%	29.42 in	10.0 mi	WSW	15.0 mph	  -	N/A	"	 "	Overcast
+200	7/19/1996 -- 8:52 PM	73.0 °F	62.1 °F	68%	29.48 in	10.0 mi	West	16.1 mph	20.7 mph	N/A	"	 "	Overcast
+201	7/19/1996 -- 9:52 PM	69.1 °F	62.1 °F	78%	29.52 in	10.0 mi	Variable	6.9 mph	  -	0.00 in	"	 "	Mostly Cloudy
+202	7/19/1996 -- 10:52 PM	70.0 °F	60.1 °F	71%	29.52 in	10.0 mi	Variable	6.9 mph	  -	N/A	"	 "	Overcast
+203	7/19/1996 -- 11:52 PM	68.0 °F	57.9 °F	70%	29.55 in	10.0 mi	West	11.5 mph	25.3 mph	N/A	"	 "	Overcast
+204	7/18/1996 -- 12:52 AM	63.0 °F	62.1 °F	97%	30.10 in	8.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+205	7/18/1996 -- 1:52 AM	62.1 °F	61.0 °F	96%	30.10 in	5.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+206	7/18/1996 -- 2:52 AM	61.0 °F	60.1 °F	97%	30.10 in	5.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+207	7/18/1996 -- 3:52 AM	59.0 °F	59.0 °F	100%	30.10 in	4.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+208	7/18/1996 -- 4:52 AM	57.9 °F	57.9 °F	100%	30.09 in	3.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+209	7/18/1996 -- 5:52 AM	57.9 °F	57.9 °F	100%	30.11 in	2.5 mi	Calm	Calm	  -	N/A	"	 "	Clear
+210	7/18/1996 -- 6:52 AM	61.0 °F	60.1 °F	97%	30.11 in	4.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+211	7/18/1996 -- 7:52 AM	66.0 °F	63.0 °F	90%	30.10 in	9.0 mi	SE	3.5 mph	  -	N/A	"	 "	Clear
+212	7/18/1996 -- 8:52 AM	72.0 °F	64.0 °F	76%	30.10 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+213	7/18/1996 -- 10:52 AM	79.0 °F	64.9 °F	62%	30.08 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+214	7/18/1996 -- 11:52 AM	82.0 °F	64.9 °F	56%	30.06 in	10.0 mi	North	5.8 mph	  -	N/A	"	 "	Partly Cloudy
+215	7/18/1996 -- 12:52 PM	82.9 °F	62.1 °F	49%	30.04 in	10.0 mi	West	6.9 mph	  -	N/A	"	 "	Partly Cloudy
+216	7/18/1996 -- 1:52 PM	84.0 °F	61.0 °F	46%	30.01 in	10.0 mi	Variable	6.9 mph	  -	N/A	"	 "	Partly Cloudy
+217	7/18/1996 -- 2:52 PM	84.0 °F	62.1 °F	47%	30.01 in	10.0 mi	Variable	4.6 mph	  -	N/A	"	 "	Partly Cloudy
+218	7/18/1996 -- 3:52 PM	84.0 °F	64.0 °F	51%	30.00 in	10.0 mi	Variable	3.5 mph	  -	N/A	"	 "	Scattered Clouds
+219	7/18/1996 -- 4:52 PM	84.0 °F	64.9 °F	53%	29.98 in	10.0 mi	WSW	3.5 mph	  -	N/A	"	 "	Clear
+220	7/18/1996 -- 5:52 PM	84.0 °F	66.0 °F	55%	29.96 in	10.0 mi	SSW	4.6 mph	  -	N/A	"	 "	Partly Cloudy
+221	7/18/1996 -- 6:52 PM	82.0 °F	73.0 °F	74%	29.94 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+222	7/18/1996 -- 7:52 PM	75.9 °F	71.1 °F	85%	29.93 in	10.0 mi	ESE	3.5 mph	  -	N/A	"	 "	Clear
+223	7/18/1996 -- 8:52 PM	72.0 °F	69.1 °F	91%	29.93 in	10.0 mi	Variable	4.6 mph	  -	N/A	"	 "	Clear
+224	7/18/1996 -- 9:52 PM	72.0 °F	68.0 °F	87%	29.92 in	8.0 mi	East	4.6 mph	  -	N/A	"	 "	Partly Cloudy
+225	7/18/1996 -- 10:52 PM	71.1 °F	66.9 °F	87%	29.91 in	8.0 mi	East	6.9 mph	  -	N/A	"	 "	Clear
+226	7/18/1996 -- 11:52 PM	70.0 °F	66.9 °F	90%	29.89 in	8.0 mi	Variable	5.8 mph	  -	N/A	"	 "	Clear
+227	7/17/1996 -- 1:52 AM	63.0 °F	63.0 °F	100%	30.02 in	5.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+228	7/17/1996 -- 2:52 AM	64.0 °F	63.0 °F	96%	30.03 in	6.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+229	7/17/1996 -- 4:52 AM	62.1 °F	62.1 °F	100%	30.03 in	5.0 mi	WNW	3.5 mph	  -	N/A	"	 "	Clear
+230	7/17/1996 -- 5:52 AM	62.1 °F	62.1 °F	100%	30.04 in	3.0 mi	SW	3.5 mph	  -	N/A	"	 "	Clear
+231	7/17/1996 -- 6:52 AM	64.9 °F	63.0 °F	93%	30.06 in	3.0 mi	Calm	Calm	  -	N/A	"	 "	Mostly Cloudy
+232	7/17/1996 -- 7:52 AM	66.9 °F	64.0 °F	90%	30.05 in	6.0 mi	ENE	3.5 mph	  -	N/A	"	 "	Clear
+233	7/17/1996 -- 8:52 AM	73.0 °F	66.9 °F	81%	30.05 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+234	7/17/1996 -- 9:52 AM	78.1 °F	66.0 °F	66%	30.05 in	10.0 mi	Variable	4.6 mph	  -	N/A	"	 "	Scattered Clouds
+235	7/17/1996 -- 10:52 AM	80.1 °F	66.9 °F	64%	30.06 in	10.0 mi	West	10.4 mph	17.3 mph	N/A	"	 "	Partly Cloudy
+236	7/17/1996 -- 11:52 AM	81.0 °F	68.0 °F	65%	30.06 in	10.0 mi	West	10.4 mph	  -	N/A	"	 "	Mostly Cloudy
+237	7/17/1996 -- 12:52 PM	82.9 °F	66.0 °F	56%	30.05 in	10.0 mi	West	12.7 mph	  -	N/A	"	 "	Scattered Clouds
+238	7/17/1996 -- 1:52 PM	82.9 °F	64.9 °F	54%	30.04 in	10.0 mi	West	11.5 mph	17.3 mph	N/A	"	 "	Scattered Clouds
+239	7/17/1996 -- 2:52 PM	82.9 °F	63.0 °F	51%	30.02 in	10.0 mi	WSW	19.6 mph	25.3 mph	N/A	"	 "	Clear
+240	7/17/1996 -- 3:52 PM	82.0 °F	63.0 °F	52%	30.02 in	10.0 mi	West	12.7 mph	18.4 mph	N/A	"	 "	Partly Cloudy
+241	7/17/1996 -- 4:52 PM	82.0 °F	63.0 °F	52%	30.02 in	10.0 mi	West	10.4 mph	19.6 mph	N/A	"	 "	Clear
+242	7/17/1996 -- 6:52 PM	81.0 °F	62.1 °F	52%	30.04 in	10.0 mi	WSW	12.7 mph	  -	N/A	"	 "	Clear
+243	7/17/1996 -- 7:52 PM	77.0 °F	63.0 °F	62%	30.05 in	10.0 mi	WSW	8.1 mph	  -	N/A	"	 "	Clear
+244	7/17/1996 -- 8:52 PM	70.0 °F	64.9 °F	84%	30.06 in	10.0 mi	North	3.5 mph	  -	N/A	"	 "	Clear
+245	7/17/1996 -- 9:52 PM	66.9 °F	64.9 °F	93%	30.08 in	10.0 mi	NW	4.6 mph	  -	N/A	"	 "	Clear
+246	7/17/1996 -- 10:52 PM	64.9 °F	63.0 °F	93%	30.08 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+247	7/17/1996 -- 11:52 PM	66.0 °F	63.0 °F	90%	30.09 in	10.0 mi	Variable	4.6 mph	  -	N/A	"	 "	Clear
+248	7/16/1996 -- 12:52 AM	70.0 °F	68.0 °F	93%	29.90 in	6.0 mi	West	6.9 mph	  -	0.02 in	Rain	Light Rain
+249	7/16/1996 -- 1:52 AM	69.1 °F	66.9 °F	93%	29.91 in	9.0 mi	West	5.8 mph	  -	0.00 in	"	 "	Overcast
+250	7/16/1996 -- 2:52 AM	69.1 °F	66.9 °F	93%	29.93 in	8.0 mi	West	6.9 mph	  -	N/A	"	 "	Overcast
+251	7/16/1996 -- 3:52 AM	69.1 °F	66.9 °F	93%	29.94 in	7.0 mi	Variable	4.6 mph	  -	N/A	"	 "	Overcast
+252	7/16/1996 -- 4:52 AM	69.1 °F	66.0 °F	90%	29.95 in	9.0 mi	Calm	Calm	  -	N/A	"	 "	Overcast
+253	7/16/1996 -- 5:52 AM	66.0 °F	64.9 °F	96%	29.97 in	5.0 mi	Variable	4.6 mph	  -	N/A	"	 "	Mostly Cloudy
+254	7/16/1996 -- 6:52 AM	68.0 °F	66.0 °F	93%	29.99 in	6.0 mi	Variable	4.6 mph	  -	N/A	"	 "	Scattered Clouds
+255	7/16/1996 -- 7:52 AM	73.0 °F	64.9 °F	76%	30.00 in	10.0 mi	WSW	6.9 mph	  -	N/A	"	 "	Partly Cloudy
+256	7/16/1996 -- 8:52 AM	73.0 °F	64.9 °F	76%	30.00 in	10.0 mi	WSW	8.1 mph	  -	N/A	"	 "	Scattered Clouds
+257	7/16/1996 -- 9:52 AM	75.9 °F	66.0 °F	71%	30.01 in	10.0 mi	SW	6.9 mph	  -	N/A	"	 "	Mostly Cloudy
+258	7/16/1996 -- 10:52 AM	77.0 °F	64.9 °F	66%	30.01 in	10.0 mi	SW	8.1 mph	  -	N/A	"	 "	Mostly Cloudy
+259	7/16/1996 -- 11:52 AM	79.0 °F	64.9 °F	62%	30.01 in	10.0 mi	WSW	10.4 mph	  -	N/A	"	 "	Mostly Cloudy
+260	7/16/1996 -- 12:52 PM	80.1 °F	64.9 °F	60%	29.99 in	10.0 mi	WSW	13.8 mph	17.3 mph	N/A	"	 "	Mostly Cloudy
+261	7/16/1996 -- 1:52 PM	82.0 °F	64.9 °F	56%	29.98 in	10.0 mi	SW	9.2 mph	  -	N/A	"	 "	Partly Cloudy
+262	7/16/1996 -- 2:52 PM	82.9 °F	64.9 °F	54%	29.96 in	10.0 mi	SW	13.8 mph	18.4 mph	N/A	"	 "	Partly Cloudy
+263	7/16/1996 -- 3:52 PM	82.0 °F	64.9 °F	56%	29.95 in	10.0 mi	WSW	10.4 mph	19.6 mph	N/A	"	 "	Scattered Clouds
+264	7/16/1996 -- 4:52 PM	82.9 °F	66.0 °F	56%	29.94 in	10.0 mi	WSW	12.7 mph	17.3 mph	N/A	"	 "	Partly Cloudy
+265	7/16/1996 -- 5:52 PM	82.9 °F	66.0 °F	56%	29.94 in	10.0 mi	SW	8.1 mph	  -	N/A	"	 "	Mostly Cloudy
+266	7/16/1996 -- 6:52 PM	80.1 °F	64.9 °F	60%	29.95 in	10.0 mi	West	6.9 mph	  -	N/A	"	 "	Scattered Clouds
+267	7/16/1996 -- 7:52 PM	77.0 °F	64.0 °F	64%	29.96 in	10.0 mi	West	10.4 mph	16.1 mph	N/A	"	 "	Clear
+268	7/16/1996 -- 8:52 PM	70.0 °F	66.9 °F	90%	29.98 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+269	7/16/1996 -- 9:52 PM	66.9 °F	66.0 °F	97%	30.00 in	8.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+270	7/16/1996 -- 10:52 PM	66.0 °F	64.0 °F	93%	30.01 in	7.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+271	7/16/1996 -- 11:52 PM	64.0 °F	64.0 °F	100%	30.01 in	5.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+272	7/15/1996 -- 12:52 AM	73.0 °F	69.1 °F	87%	29.98 in	6.0 mi	East	5.8 mph	  -	N/A	"	 "	Clear
+273	7/15/1996 -- 1:52 AM	72.0 °F	69.1 °F	91%	29.97 in	5.0 mi	East	4.6 mph	  -	N/A	"	 "	Partly Cloudy
+274	7/15/1996 -- 2:52 AM	70.0 °F	69.1 °F	97%	29.98 in	3.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+275	7/15/1996 -- 3:52 AM	70.0 °F	69.1 °F	97%	29.98 in	4.0 mi	ESE	3.5 mph	  -	N/A	"	 "	Clear
+276	7/15/1996 -- 4:52 AM	71.1 °F	69.1 °F	93%	29.96 in	3.0 mi	SSE	5.8 mph	  -	N/A	"	 "	Clear
+277	7/15/1996 -- 5:52 AM	72.0 °F	70.0 °F	93%	29.97 in	2.5 mi	ESE	9.2 mph	  -	N/A	"	 "	Clear
+278	7/15/1996 -- 6:52 AM	73.9 °F	71.1 °F	91%	29.96 in	3.0 mi	East	8.1 mph	  -	N/A	"	 "	Mostly Cloudy
+279	7/15/1996 -- 8:52 AM	77.0 °F	73.0 °F	88%	29.94 in	4.0 mi	East	11.5 mph	18.4 mph	N/A	"	 "	Partly Cloudy
+280	7/15/1996 -- 9:52 AM	80.1 °F	73.0 °F	79%	29.94 in	5.0 mi	East	13.8 mph	20.7 mph	N/A	"	 "	Haze
+281	7/15/1996 -- 11:52 AM	79.0 °F	73.0 °F	82%	29.91 in	6.0 mi	ESE	17.3 mph	23.0 mph	0.00 in	"	 "	Haze
+282	7/15/1996 -- 1:52 PM	79.0 °F	73.0 °F	82%	29.87 in	5.0 mi	ESE	19.6 mph	29.9 mph	N/A	"	 "	Haze
+283	7/15/1996 -- 2:52 PM	78.1 °F	73.0 °F	84%	29.84 in	6.0 mi	ESE	13.8 mph	18.4 mph	0.00 in	Rain	Light Rain
+284	7/15/1996 -- 3:52 PM	81.0 °F	73.0 °F	77%	29.82 in	4.0 mi	Variable	3.5 mph	21.9 mph	0.01 in	Rain	Light Rain
+285	7/15/1996 -- 4:52 PM	80.1 °F	73.0 °F	79%	29.81 in	2.5 mi	South	15.0 mph	26.5 mph	0.02 in	Rain	Light Rain
+286	7/15/1996 -- 5:52 PM	79.0 °F	73.0 °F	82%	29.80 in	6.0 mi	Variable	4.6 mph	  -	0.00 in	Rain	Light Rain
+287	7/15/1996 -- 6:52 PM	80.1 °F	73.0 °F	79%	29.80 in	8.0 mi	SW	8.1 mph	18.4 mph	0.00 in	"	 "	Mostly Cloudy
+288	7/15/1996 -- 7:52 PM	80.1 °F	72.0 °F	76%	29.81 in	7.0 mi	SSW	8.1 mph	16.1 mph	0.00 in	"	 "	Mostly Cloudy
+289	7/15/1996 -- 8:52 PM	78.1 °F	72.0 °F	81%	29.81 in	8.0 mi	SSW	10.4 mph	  -	0.05 in	Rain	Light Rain
+290	7/15/1996 -- 9:52 PM	75.0 °F	73.0 °F	94%	29.83 in	4.0 mi	Variable	4.6 mph	  -	0.05 in	Rain	Light Rain
+291	7/15/1996 -- 10:52 PM	73.9 °F	73.0 °F	97%	29.85 in	5.0 mi	SSE	3.5 mph	  -	0.08 in	Rain	Light Rain
+292	7/15/1996 -- 11:52 PM	72.0 °F	70.0 °F	93%	29.88 in	4.0 mi	West	5.8 mph	  -	0.02 in	Rain	Light Rain
+293	7/14/1996 -- 12:52 AM	68.0 °F	64.0 °F	87%	29.77 in	10.0 mi	Variable	4.6 mph	  -	N/A	"	 "	Overcast
+294	7/14/1996 -- 1:52 AM	66.9 °F	64.9 °F	93%	29.79 in	10.0 mi	Variable	5.8 mph	  -	N/A	"	 "	Overcast
+295	7/14/1996 -- 2:52 AM	68.0 °F	64.0 °F	87%	29.81 in	10.0 mi	WSW	12.7 mph	  -	N/A	"	 "	Partly Cloudy
+296	7/14/1996 -- 3:52 AM	66.0 °F	64.0 °F	93%	29.84 in	10.0 mi	West	8.1 mph	  -	N/A	"	 "	Clear
+297	7/14/1996 -- 4:52 AM	66.9 °F	64.0 °F	90%	29.87 in	10.0 mi	West	6.9 mph	  -	N/A	"	 "	Mostly Cloudy
+298	7/14/1996 -- 5:52 AM	68.0 °F	64.9 °F	90%	29.89 in	10.0 mi	West	8.1 mph	  -	N/A	"	 "	Overcast
+299	7/14/1996 -- 6:52 AM	68.0 °F	66.0 °F	93%	29.90 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Scattered Clouds
+300	7/14/1996 -- 7:52 AM	71.1 °F	66.0 °F	84%	29.92 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+301	7/14/1996 -- 8:52 AM	73.9 °F	66.9 °F	79%	29.93 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+302	7/14/1996 -- 9:52 AM	77.0 °F	66.9 °F	71%	29.92 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+303	7/14/1996 -- 10:52 AM	79.0 °F	66.9 °F	66%	29.93 in	10.0 mi	Variable	3.5 mph	  -	N/A	"	 "	Clear
+304	7/14/1996 -- 11:52 AM	82.0 °F	70.0 °F	67%	29.93 in	10.0 mi	Variable	3.5 mph	  -	N/A	"	 "	Clear
+305	7/14/1996 -- 12:52 PM	84.0 °F	71.1 °F	65%	29.91 in	10.0 mi	Variable	3.5 mph	  -	N/A	"	 "	Partly Cloudy
+306	7/14/1996 -- 1:52 PM	86.0 °F	71.1 °F	61%	29.91 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Partly Cloudy
+307	7/14/1996 -- 2:52 PM	86.0 °F	71.1 °F	61%	29.91 in	7.0 mi	South	6.9 mph	  -	N/A	"	 "	Clear
+308	7/14/1996 -- 3:52 PM	86.0 °F	71.1 °F	61%	29.89 in	5.0 mi	SSW	8.1 mph	  -	N/A	"	 "	Haze
+309	7/14/1996 -- 4:52 PM	84.9 °F	72.0 °F	65%	29.89 in	5.0 mi	Variable	4.6 mph	  -	N/A	"	 "	Haze
+310	7/14/1996 -- 5:52 PM	84.9 °F	72.0 °F	65%	29.89 in	5.0 mi	SSW	5.8 mph	  -	N/A	"	 "	Haze
+311	7/14/1996 -- 6:52 PM	82.9 °F	71.1 °F	67%	29.90 in	5.0 mi	Variable	5.8 mph	  -	N/A	"	 "	Haze
+312	7/14/1996 -- 7:52 PM	81.0 °F	71.1 °F	72%	29.94 in	6.0 mi	Variable	5.8 mph	  -	N/A	"	 "	Haze
+313	7/14/1996 -- 8:52 PM	78.1 °F	72.0 °F	81%	29.93 in	6.0 mi	Variable	3.5 mph	  -	N/A	"	 "	Haze
+314	7/14/1996 -- 9:52 PM	75.9 °F	70.0 °F	82%	29.96 in	7.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+315	7/14/1996 -- 10:52 PM	75.0 °F	68.0 °F	79%	29.97 in	8.0 mi	East	5.8 mph	  -	N/A	"	 "	Partly Cloudy
+316	7/14/1996 -- 11:52 PM	73.0 °F	69.1 °F	87%	29.99 in	6.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+317	7/13/1996 -- 12:52 AM	68.0 °F	62.1 °F	81%	30.16 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Mostly Cloudy
+318	7/13/1996 -- 2:52 AM	64.9 °F	64.0 °F	97%	30.13 in	6.0 mi	SSE	3.5 mph	  -	0.00 in	Rain	Light Rain
+319	7/13/1996 -- 3:52 AM	64.9 °F	64.0 °F	97%	30.11 in	7.0 mi	ESE	5.8 mph	  -	N/A	Rain	Light Rain
+320	7/13/1996 -- 7:52 AM	66.0 °F	66.0 °F	100%	30.03 in	1.5 mi	Calm	Calm	  -	0.11 in	Rain	Rain
+321	7/13/1996 -- 8:52 AM	68.0 °F	66.9 °F	96%	30.03 in	1.5 mi	ESE	10.4 mph	  -	0.24 in	Rain	Heavy Rain
+322	7/13/1996 -- 9:52 AM	68.0 °F	66.9 °F	96%	29.99 in	2.0 mi	Variable	5.8 mph	  -	0.35 in	Rain	Heavy Rain
+323	7/13/1996 -- 10:52 AM	68.0 °F	66.9 °F	96%	29.96 in	2.0 mi	ESE	5.8 mph	  -	0.34 in	Rain	Heavy Rain
+324	7/13/1996 -- 11:52 AM	66.9 °F	66.9 °F	100%	29.92 in	1.2 mi	SE	6.9 mph	  -	0.36 in	Rain	Heavy Rain
+325	7/13/1996 -- 12:52 PM	69.1 °F	66.0 °F	90%	29.87 in	4.0 mi	ESE	9.2 mph	  -	0.39 in	Rain	Rain
+326	7/13/1996 -- 1:52 PM	68.0 °F	66.0 °F	93%	29.81 in	2.0 mi	ESE	8.1 mph	  -	0.29 in	Rain	Heavy Rain
+327	7/13/1996 -- 2:52 PM	68.0 °F	66.0 °F	93%	29.72 in	4.0 mi	Variable	3.5 mph	  -	0.12 in	Rain	Rain
+328	7/13/1996 -- 3:52 PM	68.0 °F	66.0 °F	93%	29.66 in	1.5 mi	Calm	Calm	  -	0.18 in	Rain	Heavy Rain
+329	7/13/1996 -- 4:52 PM	68.0 °F	66.9 °F	96%	29.61 in	2.5 mi	SW	3.5 mph	  -	0.11 in	Rain	Rain
+330	7/13/1996 -- 5:52 PM	68.0 °F	66.0 °F	93%	29.58 in	6.0 mi	West	6.9 mph	  -	0.13 in	Rain	Light Rain
+331	7/13/1996 -- 6:52 PM	66.9 °F	66.0 °F	97%	29.57 in	3.0 mi	Variable	6.9 mph	  -	0.07 in	Rain	Rain
+332	7/13/1996 -- 7:52 PM	66.9 °F	66.0 °F	97%	29.58 in	10.0 mi	West	8.1 mph	17.3 mph	0.04 in	Rain	Light Rain
+333	7/13/1996 -- 9:52 PM	68.0 °F	66.0 °F	93%	29.67 in	10.0 mi	WSW	8.1 mph	  -	0.01 in	"	 "	Overcast
+334	7/13/1996 -- 10:52 PM	68.0 °F	64.9 °F	90%	29.70 in	10.0 mi	WSW	5.8 mph	  -	N/A	"	 "	Overcast
+335	7/13/1996 -- 11:52 PM	68.0 °F	64.9 °F	90%	29.74 in	10.0 mi	WSW	3.5 mph	  -	N/A	"	 "	Overcast
+336	7/12/1996 -- 12:52 AM	57.0 °F	55.9 °F	96%	30.28 in	9.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+337	7/12/1996 -- 1:52 AM	55.0 °F	55.0 °F	100%	30.28 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+338	7/12/1996 -- 3:52 AM	53.1 °F	53.1 °F	100%	30.29 in	9.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+339	7/12/1996 -- 4:52 AM	52.0 °F	52.0 °F	100%	30.29 in	7.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+340	7/12/1996 -- 5:52 AM	55.0 °F	54.0 °F	96%	30.29 in	10.0 mi	ESE	5.8 mph	  -	N/A	"	 "	Clear
+341	7/12/1996 -- 6:52 AM	55.0 °F	55.0 °F	100%	30.29 in	6.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+342	7/12/1996 -- 7:52 AM	60.1 °F	57.0 °F	90%	30.30 in	10.0 mi	ESE	4.6 mph	  -	N/A	"	 "	Clear
+343	7/12/1996 -- 8:52 AM	66.9 °F	57.9 °F	73%	30.30 in	10.0 mi	East	5.8 mph	  -	N/A	"	 "	Clear
+344	7/12/1996 -- 9:52 AM	72.0 °F	61.0 °F	68%	30.29 in	10.0 mi	ESE	5.8 mph	  -	N/A	"	 "	Clear
+345	7/12/1996 -- 10:52 AM	77.0 °F	55.9 °F	48%	30.27 in	10.0 mi	Variable	6.9 mph	  -	N/A	"	 "	Clear
+346	7/12/1996 -- 11:52 AM	78.1 °F	55.0 °F	45%	30.26 in	10.0 mi	SW	8.1 mph	  -	N/A	"	 "	Clear
+347	7/12/1996 -- 12:52 PM	79.0 °F	55.0 °F	44%	30.25 in	10.0 mi	Variable	6.9 mph	  -	N/A	"	 "	Clear
+348	7/12/1996 -- 1:52 PM	80.1 °F	55.0 °F	42%	30.23 in	10.0 mi	SSW	11.5 mph	  -	N/A	"	 "	Partly Cloudy
+349	7/12/1996 -- 2:52 PM	79.0 °F	57.0 °F	47%	30.22 in	10.0 mi	South	8.1 mph	  -	N/A	"	 "	Mostly Cloudy
+350	7/12/1996 -- 4:52 PM	80.1 °F	57.0 °F	45%	30.21 in	10.0 mi	SSW	8.1 mph	  -	N/A	"	 "	Clear
+351	7/12/1996 -- 5:52 PM	79.0 °F	59.0 °F	50%	30.19 in	10.0 mi	Variable	5.8 mph	  -	N/A	"	 "	Scattered Clouds
+352	7/12/1996 -- 6:52 PM	78.1 °F	61.0 °F	56%	30.19 in	10.0 mi	SSW	9.2 mph	  -	N/A	"	 "	Overcast
+353	7/12/1996 -- 7:52 PM	73.0 °F	64.0 °F	73%	30.17 in	10.0 mi	SSE	3.5 mph	  -	N/A	"	 "	Scattered Clouds
+354	7/12/1996 -- 8:52 PM	70.0 °F	63.0 °F	78%	30.17 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+355	7/12/1996 -- 9:52 PM	72.0 °F	63.0 °F	73%	30.19 in	10.0 mi	Variable	5.8 mph	  -	N/A	"	 "	Scattered Clouds
+356	7/12/1996 -- 10:52 PM	72.0 °F	60.1 °F	66%	30.18 in	10.0 mi	East	8.1 mph	  -	N/A	"	 "	Clear
+357	7/12/1996 -- 11:52 PM	68.0 °F	61.0 °F	78%	30.17 in	10.0 mi	East	3.5 mph	  -	N/A	"	 "	Mostly Cloudy
+358	7/11/1996 -- 12:52 AM	61.0 °F	53.1 °F	75%	30.13 in	10.0 mi	WSW	8.1 mph	  -	N/A	"	 "	Scattered Clouds
+359	7/11/1996 -- 1:52 AM	57.0 °F	54.0 °F	89%	30.16 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Scattered Clouds
+360	7/11/1996 -- 2:52 AM	55.9 °F	54.0 °F	93%	30.17 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Mostly Cloudy
+361	7/11/1996 -- 3:52 AM	54.0 °F	53.1 °F	97%	30.19 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+362	7/11/1996 -- 4:52 AM	52.0 °F	52.0 °F	100%	30.20 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+363	7/11/1996 -- 5:52 AM	52.0 °F	51.1 °F	97%	30.21 in	9.0 mi	East	3.5 mph	  -	N/A	"	 "	Clear
+364	7/11/1996 -- 6:52 AM	55.9 °F	53.1 °F	90%	30.23 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+365	7/11/1996 -- 7:52 AM	61.0 °F	55.0 °F	81%	30.24 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+366	7/11/1996 -- 9:52 AM	68.0 °F	54.0 °F	61%	30.24 in	10.0 mi	SW	6.9 mph	  -	N/A	"	 "	Clear
+367	7/11/1996 -- 10:52 AM	72.0 °F	52.0 °F	49%	30.24 in	10.0 mi	Variable	4.6 mph	  -	N/A	"	 "	Clear
+368	7/11/1996 -- 11:52 AM	73.9 °F	51.1 °F	45%	30.25 in	10.0 mi	NNW	8.1 mph	  -	N/A	"	 "	Clear
+369	7/11/1996 -- 1:52 PM	77.0 °F	51.1 °F	40%	30.24 in	10.0 mi	SW	11.5 mph	  -	N/A	"	 "	Partly Cloudy
+370	7/11/1996 -- 2:52 PM	78.1 °F	50.0 °F	37%	30.24 in	10.0 mi	Variable	4.6 mph	  -	N/A	"	 "	Clear
+371	7/11/1996 -- 3:52 PM	77.0 °F	51.1 °F	40%	30.24 in	10.0 mi	WSW	8.1 mph	  -	N/A	"	 "	Partly Cloudy
+372	7/11/1996 -- 4:52 PM	77.0 °F	53.1 °F	43%	30.23 in	10.0 mi	WSW	5.8 mph	  -	N/A	"	 "	Clear
+373	7/11/1996 -- 5:52 PM	75.0 °F	54.0 °F	48%	30.22 in	10.0 mi	SW	8.1 mph	  -	N/A	"	 "	Clear
+374	7/11/1996 -- 6:52 PM	75.9 °F	55.9 °F	50%	30.22 in	10.0 mi	SW	5.8 mph	  -	N/A	"	 "	Clear
+375	7/11/1996 -- 7:52 PM	72.0 °F	57.0 °F	59%	30.23 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+376	7/11/1996 -- 8:52 PM	64.0 °F	60.1 °F	87%	30.25 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+377	7/11/1996 -- 9:52 PM	61.0 °F	57.9 °F	90%	30.27 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+378	7/11/1996 -- 10:52 PM	57.9 °F	57.9 °F	100%	30.27 in	8.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+379	7/11/1996 -- 11:52 PM	57.9 °F	57.0 °F	97%	30.27 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+380	7/10/1996 -- 1:52 AM	63.0 °F	54.0 °F	72%	29.75 in	10.0 mi	West	11.5 mph	  -	N/A	"	 "	Clear
+381	7/10/1996 -- 2:52 AM	61.0 °F	55.0 °F	81%	29.76 in	10.0 mi	WSW	13.8 mph	  -	N/A	"	 "	Clear
+382	7/10/1996 -- 3:52 AM	60.1 °F	55.0 °F	83%	29.78 in	10.0 mi	Variable	4.6 mph	  -	N/A	"	 "	Clear
+383	7/10/1996 -- 4:52 AM	59.0 °F	55.0 °F	87%	29.80 in	10.0 mi	WSW	6.9 mph	  -	N/A	"	 "	Partly Cloudy
+384	7/10/1996 -- 7:52 AM	62.1 °F	55.9 °F	80%	29.84 in	10.0 mi	West	11.5 mph	18.4 mph	N/A	"	 "	Partly Cloudy
+385	7/10/1996 -- 12:52 PM	71.1 °F	54.0 °F	55%	29.91 in	10.0 mi	West	12.7 mph	23.0 mph	N/A	"	 "	Mostly Cloudy
+386	7/10/1996 -- 1:52 PM	70.0 °F	52.0 °F	53%	29.93 in	10.0 mi	WSW	11.5 mph	19.6 mph	N/A	"	 "	Mostly Cloudy
+387	7/10/1996 -- 3:52 PM	71.1 °F	52.0 °F	51%	29.95 in	10.0 mi	West	10.4 mph	17.3 mph	N/A	"	 "	Mostly Cloudy
+388	7/10/1996 -- 4:52 PM	72.0 °F	51.1 °F	48%	29.96 in	10.0 mi	West	11.5 mph	24.2 mph	N/A	"	 "	Clear
+389	7/10/1996 -- 5:52 PM	72.0 °F	51.1 °F	48%	29.98 in	10.0 mi	West	11.5 mph	23.0 mph	N/A	"	 "	Mostly Cloudy
+390	7/10/1996 -- 7:52 PM	66.9 °F	52.0 °F	59%	30.03 in	10.0 mi	WSW	9.2 mph	  -	N/A	"	 "	Mostly Cloudy
+391	7/10/1996 -- 8:52 PM	66.0 °F	51.1 °F	59%	30.05 in	10.0 mi	West	10.4 mph	  -	N/A	"	 "	Overcast
+392	7/10/1996 -- 9:52 PM	64.0 °F	52.0 °F	65%	30.08 in	10.0 mi	WSW	10.4 mph	  -	N/A	"	 "	Mostly Cloudy
+393	7/10/1996 -- 10:52 PM	63.0 °F	52.0 °F	67%	30.10 in	10.0 mi	WSW	9.2 mph	  -	N/A	"	 "	Scattered Clouds
+394	7/10/1996 -- 11:52 PM	62.1 °F	53.1 °F	72%	30.12 in	10.0 mi	West	5.8 mph	  -	N/A	"	 "	Overcast
+395	7/9/1996 -- 12:52 AM	66.9 °F	64.9 °F	93%	29.62 in	9.0 mi	Calm	Calm	  -	0.00 in	"	 "	Mostly Cloudy
+396	7/9/1996 -- 1:52 AM	66.0 °F	64.0 °F	93%	29.62 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Mostly Cloudy
+397	7/9/1996 -- 2:52 AM	64.9 °F	64.9 °F	100%	29.62 in	7.0 mi	Calm	Calm	  -	N/A	"	 "	Mostly Cloudy
+398	7/9/1996 -- 3:52 AM	64.0 °F	64.0 °F	100%	29.62 in	5.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+399	7/9/1996 -- 4:52 AM	62.1 °F	62.1 °F	100%	29.62 in	3.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+400	7/9/1996 -- 5:52 AM	62.1 °F	62.1 °F	100%	29.62 in	6.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+401	7/9/1996 -- 6:52 AM	63.0 °F	63.0 °F	100%	29.65 in	4.0 mi	Calm	Calm	  -	N/A	"	 "	Partly Cloudy
+402	7/9/1996 -- 7:52 AM	64.9 °F	63.0 °F	93%	29.65 in	4.0 mi	Calm	Calm	  -	N/A	"	 "	Partly Cloudy
+403	7/9/1996 -- 8:52 AM	70.0 °F	63.0 °F	78%	29.65 in	10.0 mi	ENE	5.8 mph	  -	N/A	"	 "	Clear
+404	7/9/1996 -- 9:52 AM	73.9 °F	62.1 °F	66%	29.64 in	10.0 mi	Variable	3.5 mph	  -	N/A	"	 "	Clear
+405	7/9/1996 -- 10:52 AM	78.1 °F	61.0 °F	56%	29.64 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+406	7/9/1996 -- 1:52 PM	84.0 °F	61.0 °F	46%	29.60 in	10.0 mi	SW	8.1 mph	  -	N/A	"	 "	Partly Cloudy
+407	7/9/1996 -- 6:52 PM	69.1 °F	66.9 °F	93%	29.65 in	10.0 mi	NNW	3.5 mph	  -	0.01 in	"	 "	Overcast
+408	7/9/1996 -- 7:52 PM	69.1 °F	66.9 °F	93%	29.66 in	7.0 mi	West	5.8 mph	  -	N/A	"	 "	Partly Cloudy
+409	7/9/1996 -- 8:52 PM	66.9 °F	66.9 °F	100%	29.68 in	6.0 mi	Variable	4.6 mph	  -	N/A	"	 "	Partly Cloudy
+410	7/9/1996 -- 9:52 PM	66.0 °F	63.0 °F	90%	29.72 in	9.0 mi	SW	6.9 mph	  -	N/A	"	 "	Scattered Clouds
+411	7/9/1996 -- 10:52 PM	64.9 °F	59.0 °F	81%	29.73 in	10.0 mi	SSW	5.8 mph	  -	N/A	"	 "	Mostly Cloudy
+412	7/9/1996 -- 11:52 PM	63.0 °F	57.0 °F	81%	29.73 in	10.0 mi	SW	6.9 mph	  -	N/A	"	 "	Overcast
+413	7/8/1996 -- 12:52 AM	69.1 °F	64.9 °F	87%	29.73 in	6.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+414	7/8/1996 -- 1:52 AM	66.9 °F	63.0 °F	87%	29.72 in	5.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+415	7/8/1996 -- 2:52 AM	68.0 °F	63.0 °F	84%	29.69 in	5.0 mi	East	6.9 mph	  -	N/A	"	 "	Haze
+416	7/8/1996 -- 3:52 AM	66.9 °F	63.0 °F	87%	29.69 in	5.0 mi	SE	5.8 mph	  -	N/A	"	 "	Clear
+417	7/8/1996 -- 4:52 AM	66.9 °F	63.0 °F	87%	29.67 in	5.0 mi	ESE	6.9 mph	  -	N/A	"	 "	Clear
+418	7/8/1996 -- 5:52 AM	66.0 °F	63.0 °F	90%	29.68 in	3.0 mi	SE	5.8 mph	  -	N/A	"	 "	Partly Cloudy
+419	7/8/1996 -- 6:52 AM	70.0 °F	64.0 °F	81%	29.69 in	4.0 mi	East	6.9 mph	  -	0.00 in	Rain	Light Rain
+420	7/8/1996 -- 7:52 AM	69.1 °F	64.9 °F	87%	29.68 in	2.0 mi	SE	3.5 mph	  -	0.01 in	"	 "	Overcast
+421	7/8/1996 -- 8:52 AM	73.0 °F	66.0 °F	79%	29.68 in	3.0 mi	East	8.1 mph	  -	N/A	"	 "	Haze
+422	7/8/1996 -- 9:52 AM	77.0 °F	66.9 °F	71%	29.67 in	4.0 mi	Variable	4.6 mph	  -	N/A	"	 "	Haze
+423	7/8/1996 -- 11:52 AM	84.0 °F	68.0 °F	58%	29.63 in	7.0 mi	SW	6.9 mph	  -	N/A	"	 "	Scattered Clouds
+424	7/8/1996 -- 1:52 PM	86.0 °F	66.9 °F	53%	29.61 in	8.0 mi	WSW	10.4 mph	  -	N/A	"	 "	Scattered Clouds
+425	7/8/1996 -- 2:52 PM	75.0 °F	72.0 °F	90%	29.62 in	1.2 mi	South	13.8 mph	  -	0.10 in	Rain	Heavy Rain
+426	7/8/1996 -- 3:52 PM	81.0 °F	73.0 °F	77%	29.61 in	5.0 mi	SW	5.8 mph	  -	0.00 in	"	 "	Haze
+427	7/8/1996 -- 4:52 PM	81.0 °F	71.1 °F	72%	29.61 in	4.0 mi	Variable	5.8 mph	  -	N/A	"	 "	Haze
+428	7/8/1996 -- 5:52 PM	81.0 °F	69.1 °F	67%	29.59 in	5.0 mi	Variable	5.8 mph	  -	0.01 in	"	 "	Haze
+429	7/8/1996 -- 6:52 PM	79.0 °F	69.1 °F	72%	29.60 in	5.0 mi	Calm	Calm	  -	N/A	"	 "	Haze
+430	7/8/1996 -- 7:52 PM	75.9 °F	70.0 °F	82%	29.61 in	4.0 mi	SSW	3.5 mph	  -	N/A	"	 "	Haze
+431	7/8/1996 -- 8:52 PM	73.0 °F	68.0 °F	84%	29.63 in	5.0 mi	WSW	3.5 mph	  -	N/A	"	 "	Haze
+432	7/8/1996 -- 9:52 PM	71.1 °F	66.0 °F	84%	29.63 in	6.0 mi	Calm	Calm	  -	N/A	"	 "	Haze
+433	7/8/1996 -- 10:52 PM	71.1 °F	64.9 °F	81%	29.62 in	8.0 mi	West	4.6 mph	  -	N/A	"	 "	Mostly Cloudy
+434	7/8/1996 -- 11:52 PM	69.1 °F	64.9 °F	87%	29.63 in	2.5 mi	Variable	3.5 mph	  -	0.03 in	Rain	Heavy Rain
+435	7/7/1996 -- 12:52 AM	60.1 °F	55.9 °F	86%	29.94 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+436	7/7/1996 -- 1:52 AM	57.9 °F	55.9 °F	93%	29.94 in	9.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+437	7/7/1996 -- 2:52 AM	55.9 °F	44.1 °F	64%	29.94 in	9.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+438	7/7/1996 -- 3:52 AM	55.9 °F	32.0 °F	40%	29.93 in	7.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+439	7/7/1996 -- 4:52 AM	55.9 °F	30.9 °F	39%	29.94 in	6.0 mi	Calm	Calm	  -	N/A	"	 "	Haze
+440	7/7/1996 -- 5:52 AM	55.0 °F	30.0 °F	38%	29.95 in	6.0 mi	Calm	Calm	  -	N/A	"	 "	Haze
+441	7/7/1996 -- 6:52 AM	59.0 °F	30.0 °F	33%	29.94 in	10.0 mi	East	3.5 mph	  -	N/A	"	 "	Clear
+442	7/7/1996 -- 7:52 AM	64.0 °F	28.0 °F	26%	29.94 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+443	7/7/1996 -- 8:52 AM	69.1 °F	27.0 °F	21%	29.93 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Mostly Cloudy
+444	7/7/1996 -- 9:52 AM	71.1 °F	26.1 °F	19%	29.92 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Overcast
+445	7/7/1996 -- 10:52 AM	  -	  -	N/A%	29.90 in	10.0 mi	Variable	3.5 mph	  -	N/A	"	 "	Scattered Clouds
+446	7/7/1996 -- 11:52 AM	  -	  -	N/A%	29.90 in	10.0 mi	ENE	3.5 mph	  -	N/A	"	 "	Mostly Cloudy
+447	7/7/1996 -- 12:52 PM	  -	  -	N/A%	29.86 in	10.0 mi	Variable	4.6 mph	  -	N/A	"	 "	Clear
+448	7/7/1996 -- 1:52 PM	  -	  -	N/A%	29.85 in	10.0 mi	SSW	3.5 mph	  -	N/A	"	 "	Scattered Clouds
+449	7/7/1996 -- 2:52 PM	  -	  -	N/A%	29.82 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+450	7/7/1996 -- 3:52 PM	  -	  -	N/A%	29.80 in	10.0 mi	North	4.6 mph	  -	N/A	"	 "	Mostly Cloudy
+451	7/7/1996 -- 4:52 PM	  -	  -	N/A%	29.79 in	10.0 mi	South	10.4 mph	  -	N/A	"	 "	Partly Cloudy
+452	7/7/1996 -- 5:52 PM	  -	  -	N/A%	29.77 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+453	7/7/1996 -- 6:52 PM	  -	  -	N/A%	29.76 in	10.0 mi	Variable	3.5 mph	  -	N/A	"	 "	Clear
+454	7/7/1996 -- 7:52 PM	  -	  -	N/A%	29.76 in	9.0 mi	Variable	4.6 mph	  -	N/A	"	 "	Clear
+455	7/7/1996 -- 8:52 PM	  -	  -	N/A%	29.76 in	9.0 mi	Variable	4.6 mph	  -	N/A	"	 "	Scattered Clouds
+456	7/7/1996 -- 9:52 PM	  -	  -	N/A%	29.76 in	8.0 mi	ENE	4.6 mph	  -	N/A	"	 "	Clear
+457	7/7/1996 -- 10:52 PM	73.0 °F	  -	N/A%	29.74 in	7.0 mi	Calm	Calm	  -	N/A	"	 "	Scattered Clouds
+458	7/7/1996 -- 11:52 PM	71.1 °F	66.0 °F	84%	29.74 in	6.0 mi	Variable	3.5 mph	  -	N/A	"	 "	Haze
+459	7/6/1996 -- 12:52 AM	55.9 °F	54.0 °F	93%	29.97 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+460	7/6/1996 -- 1:52 AM	55.0 °F	52.0 °F	89%	29.96 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+461	7/6/1996 -- 2:52 AM	54.0 °F	52.0 °F	93%	29.96 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+462	7/6/1996 -- 3:52 AM	53.1 °F	51.1 °F	93%	29.96 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+463	7/6/1996 -- 4:52 AM	52.0 °F	51.1 °F	97%	29.96 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+464	7/6/1996 -- 5:52 AM	52.0 °F	51.1 °F	97%	29.96 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+465	7/6/1996 -- 6:52 AM	54.0 °F	52.0 °F	93%	29.97 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+466	7/6/1996 -- 7:52 AM	55.9 °F	54.0 °F	93%	29.96 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+467	7/6/1996 -- 8:52 AM	59.0 °F	55.9 °F	90%	29.96 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+468	7/6/1996 -- 9:52 AM	69.1 °F	60.1 °F	73%	29.94 in	10.0 mi	Variable	3.5 mph	  -	N/A	"	 "	Clear
+469	7/6/1996 -- 10:52 AM	77.0 °F	54.0 °F	45%	29.91 in	10.0 mi	West	10.4 mph	  -	N/A	"	 "	Clear
+470	7/6/1996 -- 11:52 AM	81.0 °F	57.0 °F	44%	29.89 in	10.0 mi	West	10.4 mph	  -	N/A	"	 "	Clear
+471	7/6/1996 -- 12:52 PM	82.0 °F	57.9 °F	44%	29.88 in	10.0 mi	WSW	12.7 mph	18.4 mph	N/A	"	 "	Clear
+472	7/6/1996 -- 1:52 PM	82.9 °F	60.1 °F	46%	29.86 in	10.0 mi	West	11.5 mph	20.7 mph	N/A	"	 "	Clear
+473	7/6/1996 -- 2:52 PM	81.0 °F	61.0 °F	50%	29.85 in	10.0 mi	West	9.2 mph	  -	N/A	"	 "	Overcast
+474	7/6/1996 -- 3:52 PM	80.1 °F	62.1 °F	54%	29.85 in	10.0 mi	West	10.4 mph	  -	N/A	"	 "	Overcast
+475	7/6/1996 -- 4:52 PM	77.0 °F	62.1 °F	60%	29.87 in	10.0 mi	West	6.9 mph	  -	0.00 in	"	 "	Overcast
+476	7/6/1996 -- 5:52 PM	75.0 °F	62.1 °F	64%	29.88 in	10.0 mi	West	8.1 mph	  -	0.00 in	"	 "	Overcast
+477	7/6/1996 -- 6:52 PM	75.9 °F	62.1 °F	62%	29.89 in	10.0 mi	West	5.8 mph	  -	N/A	"	 "	Overcast
+478	7/6/1996 -- 7:52 PM	73.9 °F	63.0 °F	68%	29.91 in	10.0 mi	West	4.6 mph	  -	N/A	"	 "	Overcast
+479	7/6/1996 -- 8:52 PM	73.9 °F	62.1 °F	66%	29.91 in	10.0 mi	WSW	8.1 mph	  -	N/A	"	 "	Overcast
+480	7/6/1996 -- 9:52 PM	72.0 °F	62.1 °F	71%	29.92 in	10.0 mi	West	6.9 mph	  -	N/A	"	 "	Overcast
+481	7/6/1996 -- 10:52 PM	70.0 °F	60.1 °F	71%	29.92 in	10.0 mi	WSW	8.1 mph	  -	N/A	"	 "	Clear
+482	7/6/1996 -- 11:52 PM	66.0 °F	57.9 °F	75%	29.94 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+483	7/5/1996 -- 12:52 AM	63.0 °F	57.9 °F	84%	29.67 in	10.0 mi	West	8.1 mph	  -	N/A	"	 "	Scattered Clouds
+484	7/5/1996 -- 1:52 AM	62.1 °F	57.0 °F	84%	29.67 in	10.0 mi	West	10.4 mph	  -	N/A	"	 "	Scattered Clouds
+485	7/5/1996 -- 2:52 AM	63.0 °F	57.0 °F	81%	29.68 in	10.0 mi	WSW	9.2 mph	  -	N/A	"	 "	Mostly Cloudy
+486	7/5/1996 -- 3:52 AM	62.1 °F	55.0 °F	78%	29.70 in	10.0 mi	West	6.9 mph	  -	N/A	"	 "	Clear
+487	7/5/1996 -- 4:52 AM	61.0 °F	55.0 °F	81%	29.73 in	10.0 mi	West	9.2 mph	  -	N/A	"	 "	Clear
+488	7/5/1996 -- 6:52 AM	63.0 °F	54.0 °F	72%	29.79 in	10.0 mi	West	10.4 mph	  -	N/A	"	 "	Clear
+489	7/5/1996 -- 7:52 AM	66.0 °F	55.0 °F	68%	29.82 in	10.0 mi	West	6.9 mph	  -	N/A	"	 "	Clear
+490	7/5/1996 -- 10:52 AM	72.0 °F	54.0 °F	53%	29.86 in	10.0 mi	West	13.8 mph	21.9 mph	N/A	"	 "	Clear
+491	7/5/1996 -- 11:52 AM	73.9 °F	55.9 °F	53%	29.87 in	10.0 mi	West	11.5 mph	19.6 mph	N/A	"	 "	Clear
+492	7/5/1996 -- 12:52 PM	75.0 °F	54.0 °F	48%	29.87 in	10.0 mi	West	13.8 mph	20.7 mph	N/A	"	 "	Clear
+493	7/5/1996 -- 1:52 PM	77.0 °F	54.0 °F	45%	29.88 in	10.0 mi	WNW	10.4 mph	17.3 mph	N/A	"	 "	Clear
+494	7/5/1996 -- 2:52 PM	78.1 °F	54.0 °F	43%	29.88 in	10.0 mi	Variable	6.9 mph	17.3 mph	N/A	"	 "	Partly Cloudy
+495	7/5/1996 -- 3:52 PM	77.0 °F	54.0 °F	45%	29.90 in	10.0 mi	West	10.4 mph	23.0 mph	N/A	"	 "	Clear
+496	7/5/1996 -- 4:52 PM	77.0 °F	55.0 °F	47%	29.90 in	10.0 mi	West	13.8 mph	19.6 mph	N/A	"	 "	Partly Cloudy
+497	7/5/1996 -- 5:52 PM	75.9 °F	55.0 °F	48%	29.91 in	10.0 mi	West	12.7 mph	19.6 mph	N/A	"	 "	Clear
+498	7/5/1996 -- 6:52 PM	75.0 °F	53.1 °F	46%	29.92 in	10.0 mi	West	10.4 mph	  -	N/A	"	 "	Clear
+499	7/5/1996 -- 7:52 PM	71.1 °F	54.0 °F	55%	29.94 in	10.0 mi	Variable	4.6 mph	  -	N/A	"	 "	Clear
+500	7/5/1996 -- 8:52 PM	64.9 °F	57.0 °F	75%	29.95 in	10.0 mi	Variable	3.5 mph	  -	N/A	"	 "	Clear
+501	7/5/1996 -- 9:52 PM	64.0 °F	55.9 °F	75%	29.96 in	10.0 mi	NW	4.6 mph	  -	N/A	"	 "	Clear
+502	7/5/1996 -- 10:52 PM	61.0 °F	55.9 °F	83%	29.98 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+503	7/5/1996 -- 11:52 PM	59.0 °F	55.0 °F	87%	29.98 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+504	7/4/1996 -- 12:52 AM	64.0 °F	63.0 °F	96%	29.49 in	2.5 mi	Variable	3.5 mph	  -	0.02 in	Rain	Light Rain
+505	7/4/1996 -- 1:52 AM	63.0 °F	62.1 °F	97%	29.49 in	6.0 mi	Variable	3.5 mph	  -	0.03 in	Rain	Light Rain
+506	7/4/1996 -- 2:52 AM	63.0 °F	62.1 °F	97%	29.49 in	6.0 mi	WSW	3.5 mph	  -	0.03 in	Rain	Light Rain
+507	7/4/1996 -- 3:52 AM	63.0 °F	62.1 °F	97%	29.49 in	6.0 mi	Calm	Calm	  -	0.03 in	Rain	Light Rain
+508	7/4/1996 -- 4:52 AM	63.0 °F	62.1 °F	97%	29.49 in	4.0 mi	Calm	Calm	  -	0.03 in	Rain	Light Rain
+509	7/4/1996 -- 5:52 AM	62.1 °F	61.0 °F	96%	29.49 in	1.8 mi	NNW	3.5 mph	  -	0.18 in	Rain	Heavy Rain
+510	7/4/1996 -- 6:52 AM	62.1 °F	61.0 °F	96%	29.49 in	10.0 mi	Calm	Calm	  -	0.08 in	Rain	Light Rain
+511	7/4/1996 -- 7:52 AM	63.0 °F	61.0 °F	93%	29.50 in	10.0 mi	West	4.6 mph	  -	0.04 in	Rain	Light Rain
+512	7/4/1996 -- 8:52 AM	63.0 °F	61.0 °F	93%	29.51 in	4.0 mi	West	4.6 mph	  -	0.18 in	Rain	Light Rain
+513	7/4/1996 -- 9:52 AM	64.9 °F	62.1 °F	90%	29.52 in	10.0 mi	NNW	3.5 mph	  -	0.00 in	"	 "	Overcast
+514	7/4/1996 -- 10:52 AM	66.0 °F	60.1 °F	81%	29.52 in	10.0 mi	WSW	8.1 mph	  -	N/A	"	 "	Overcast
+515	7/4/1996 -- 11:52 AM	66.9 °F	60.1 °F	79%	29.52 in	10.0 mi	WSW	8.1 mph	  -	N/A	"	 "	Overcast
+516	7/4/1996 -- 12:52 PM	64.9 °F	62.1 °F	90%	29.53 in	3.0 mi	Variable	5.8 mph	  -	0.02 in	Rain	Light Rain
+517	7/4/1996 -- 2:52 PM	64.0 °F	60.1 °F	87%	29.55 in	10.0 mi	West	9.2 mph	  -	0.00 in	Rain	Light Rain
+518	7/4/1996 -- 3:52 PM	63.0 °F	61.0 °F	93%	29.55 in	4.0 mi	West	9.2 mph	  -	0.01 in	Rain	Light Rain
+519	7/4/1996 -- 4:52 PM	64.0 °F	60.1 °F	87%	29.54 in	10.0 mi	WSW	11.5 mph	  -	0.01 in	Rain	Light Rain
+520	7/4/1996 -- 5:52 PM	64.0 °F	59.0 °F	84%	29.55 in	10.0 mi	West	12.7 mph	  -	0.01 in	"	 "	Overcast
+521	7/4/1996 -- 6:52 PM	63.0 °F	60.1 °F	90%	29.57 in	5.0 mi	WSW	8.1 mph	  -	0.00 in	Rain	Light Rain
+522	7/4/1996 -- 7:52 PM	63.0 °F	60.1 °F	90%	29.59 in	10.0 mi	Variable	3.5 mph	  -	0.00 in	"	 "	Overcast
+523	7/4/1996 -- 8:52 PM	63.0 °F	60.1 °F	90%	29.61 in	7.0 mi	WSW	9.2 mph	  -	0.07 in	Rain	Light Rain
+524	7/4/1996 -- 9:52 PM	63.0 °F	60.1 °F	90%	29.63 in	10.0 mi	WSW	6.9 mph	  -	0.02 in	"	 "	Overcast
+525	7/4/1996 -- 10:52 PM	62.1 °F	59.0 °F	90%	29.65 in	10.0 mi	West	9.2 mph	  -	N/A	"	 "	Overcast
+526	7/4/1996 -- 11:52 PM	64.0 °F	57.9 °F	80%	29.66 in	10.0 mi	West	6.9 mph	  -	N/A	"	 "	Overcast
+527	7/3/1996 -- 12:52 AM	59.0 °F	57.0 °F	93%	29.65 in	10.0 mi	ESE	3.5 mph	  -	N/A	"	 "	Clear
+528	7/3/1996 -- 1:52 AM	59.0 °F	55.9 °F	90%	29.63 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+529	7/3/1996 -- 2:52 AM	57.9 °F	57.0 °F	97%	29.62 in	10.0 mi	SW	3.5 mph	  -	N/A	"	 "	Clear
+530	7/3/1996 -- 5:52 AM	62.1 °F	59.0 °F	90%	29.65 in	2.5 mi	South	9.2 mph	  -	N/A	Rain	Heavy Rain
+531	7/3/1996 -- 6:52 AM	61.0 °F	60.1 °F	97%	29.60 in	4.0 mi	Calm	Calm	  -	N/A	Rain	Light Rain
+532	7/3/1996 -- 7:52 AM	63.0 °F	61.0 °F	93%	29.58 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+533	7/3/1996 -- 8:52 AM	66.9 °F	62.1 °F	84%	29.57 in	10.0 mi	Variable	3.5 mph	  -	N/A	"	 "	Partly Cloudy
+534	7/3/1996 -- 9:52 AM	70.0 °F	63.0 °F	78%	29.55 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Partly Cloudy
+535	7/3/1996 -- 11:52 AM	75.9 °F	63.0 °F	64%	29.54 in	10.0 mi	ENE	6.9 mph	  -	N/A	"	 "	Scattered Clouds
+536	7/3/1996 -- 12:52 PM	75.0 °F	63.0 °F	66%	29.53 in	10.0 mi	East	9.2 mph	  -	N/A	"	 "	Overcast
+537	7/3/1996 -- 1:52 PM	75.0 °F	64.0 °F	69%	29.52 in	10.0 mi	Variable	6.9 mph	  -	N/A	"	 "	Scattered Clouds
+538	7/3/1996 -- 2:52 PM	75.0 °F	63.0 °F	66%	29.52 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Overcast
+539	7/3/1996 -- 3:52 PM	71.1 °F	66.0 °F	84%	29.52 in	10.0 mi	WSW	5.8 mph	  -	N/A	Rain	Light Rain
+540	7/3/1996 -- 4:52 PM	66.9 °F	64.0 °F	90%	29.51 in	6.0 mi	SSW	6.9 mph	  -	N/A	Rain	Light Rain
+541	7/3/1996 -- 5:52 PM	66.0 °F	63.0 °F	90%	29.51 in	1.5 mi	WSW	8.1 mph	  -	0.07 in	Rain	Heavy Rain
+542	7/3/1996 -- 6:52 PM	64.9 °F	64.0 °F	97%	29.53 in	2.0 mi	Calm	Calm	  -	0.41 in	Rain	Rain
+543	7/3/1996 -- 7:52 PM	64.9 °F	63.0 °F	93%	29.53 in	3.0 mi	WSW	4.6 mph	  -	0.05 in	Rain	Rain
+544	7/3/1996 -- 8:52 PM	64.0 °F	63.0 °F	96%	29.54 in	5.0 mi	Calm	Calm	  -	0.05 in	Rain	Light Rain
+545	7/3/1996 -- 9:52 PM	63.0 °F	62.1 °F	97%	29.53 in	5.0 mi	Calm	Calm	  -	0.06 in	Rain	Light Rain
+546	7/3/1996 -- 10:52 PM	63.0 °F	62.1 °F	97%	29.52 in	5.0 mi	Calm	Calm	  -	0.00 in	Rain	Light Rain
+547	7/3/1996 -- 11:52 PM	63.0 °F	62.1 °F	97%	29.51 in	4.0 mi	West	4.6 mph	  -	0.01 in	"	 "	Overcast
+548	7/2/1996 -- 12:52 AM	61.0 °F	55.0 °F	81%	29.85 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+549	7/2/1996 -- 1:52 AM	57.9 °F	54.0 °F	87%	29.85 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+550	7/2/1996 -- 2:52 AM	55.0 °F	53.1 °F	93%	29.84 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+551	7/2/1996 -- 3:52 AM	54.0 °F	53.1 °F	97%	29.84 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+552	7/2/1996 -- 4:52 AM	53.1 °F	52.0 °F	96%	29.85 in	9.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+553	7/2/1996 -- 5:52 AM	54.0 °F	53.1 °F	97%	29.85 in	8.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+554	7/2/1996 -- 8:52 AM	66.0 °F	57.0 °F	73%	29.83 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+555	7/2/1996 -- 9:52 AM	72.0 °F	57.9 °F	61%	29.82 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+556	7/2/1996 -- 10:52 AM	73.9 °F	59.0 °F	59%	29.81 in	10.0 mi	NNW	6.9 mph	  -	N/A	"	 "	Clear
+557	7/2/1996 -- 11:52 AM	78.1 °F	62.1 °F	58%	29.79 in	10.0 mi	Variable	3.5 mph	  -	N/A	"	 "	Clear
+558	7/2/1996 -- 12:52 PM	80.1 °F	60.1 °F	50%	29.76 in	10.0 mi	WSW	4.6 mph	  -	N/A	"	 "	Clear
+559	7/2/1996 -- 1:52 PM	82.0 °F	59.0 °F	45%	29.75 in	10.0 mi	NNW	9.2 mph	  -	N/A	"	 "	Scattered Clouds
+560	7/2/1996 -- 2:52 PM	82.9 °F	55.9 °F	39%	29.73 in	10.0 mi	WSW	8.1 mph	  -	N/A	"	 "	Clear
+561	7/2/1996 -- 3:52 PM	82.0 °F	55.9 °F	41%	29.72 in	10.0 mi	WNW	6.9 mph	  -	N/A	"	 "	Clear
+562	7/2/1996 -- 4:52 PM	82.9 °F	55.9 °F	39%	29.70 in	10.0 mi	Variable	3.5 mph	  -	N/A	"	 "	Clear
+563	7/2/1996 -- 6:52 PM	80.1 °F	57.0 °F	45%	29.68 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+564	7/2/1996 -- 8:52 PM	66.9 °F	60.1 °F	79%	29.68 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+565	7/2/1996 -- 10:52 PM	61.0 °F	59.0 °F	93%	29.69 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+566	7/2/1996 -- 11:52 PM	60.1 °F	57.0 °F	90%	29.67 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Clear
+567	7/1/1996 -- 3:52 AM	64.0 °F	62.1 °F	93%	29.86 in	6.0 mi	Calm	Calm	  -	N/A	"	 "	Overcast
+568	7/1/1996 -- 4:52 AM	63.0 °F	62.1 °F	97%	29.86 in	5.0 mi	Calm	Calm	  -	N/A	"	 "	Overcast
+569	7/1/1996 -- 5:25 AM	62.6 °F	60.8 °F	94%	29.86 in	5.0 mi	Calm	Calm	  -	N/A	"	 "	Scattered Clouds
+570	7/1/1996 -- 5:35 AM	62.6 °F	60.8 °F	94%	29.86 in	3.0 mi	Calm	Calm	  -	N/A	"	 "	Mostly Cloudy
+571	7/1/1996 -- 5:52 AM	62.1 °F	60.1 °F	93%	29.87 in	3.0 mi	Calm	Calm	  -	N/A	"	 "	Overcast
+572	7/1/1996 -- 6:16 AM	62.6 °F	60.8 °F	94%	29.87 in	2.5 mi	Calm	Calm	  -	N/A	"	 "	Overcast
+573	7/1/1996 -- 6:33 AM	62.6 °F	60.8 °F	94%	29.87 in	3.0 mi	Calm	Calm	  -	N/A	"	 "	Overcast
+574	7/1/1996 -- 6:52 AM	63.0 °F	62.1 °F	97%	29.88 in	3.0 mi	Calm	Calm	  -	N/A	"	 "	Mostly Cloudy
+575	7/1/1996 -- 7:07 AM	64.4 °F	62.6 °F	94%	29.88 in	2.5 mi	Calm	Calm	  -	N/A	"	 "	Overcast
+576	7/1/1996 -- 7:34 AM	66.2 °F	62.6 °F	88%	29.88 in	5.0 mi	Calm	Calm	  -	N/A	"	 "	Scattered Clouds
+577	7/1/1996 -- 7:52 AM	68.0 °F	63.0 °F	84%	29.88 in	5.0 mi	Calm	Calm	  -	N/A	"	 "	Haze
+578	7/1/1996 -- 8:52 AM	71.1 °F	64.9 °F	81%	29.87 in	9.0 mi	Variable	3.5 mph	  -	N/A	"	 "	Clear
+579	7/1/1996 -- 9:52 AM	75.9 °F	64.9 °F	69%	29.86 in	10.0 mi	Variable	4.6 mph	  -	N/A	"	 "	Partly Cloudy
+580	7/1/1996 -- 10:52 AM	78.1 °F	64.0 °F	62%	29.86 in	10.0 mi	WSW	11.5 mph	  -	N/A	"	 "	Clear
+581	7/1/1996 -- 1:52 PM	82.9 °F	61.0 °F	47%	29.83 in	10.0 mi	West	10.4 mph	19.6 mph	N/A	"	 "	Partly Cloudy
+582	7/1/1996 -- 3:52 PM	84.9 °F	62.1 °F	46%	29.80 in	10.0 mi	WSW	11.5 mph	  -	N/A	"	 "	Scattered Clouds
+583	7/1/1996 -- 4:52 PM	84.9 °F	63.0 °F	48%	29.79 in	10.0 mi	West	9.2 mph	16.1 mph	N/A	"	 "	Partly Cloudy
+584	7/1/1996 -- 6:52 PM	81.0 °F	57.9 °F	45%	29.80 in	10.0 mi	Variable	5.8 mph	  -	N/A	"	 "	Clear
+585	7/1/1996 -- 8:52 PM	70.0 °F	57.9 °F	65%	29.83 in	10.0 mi	Variable	3.5 mph	  -	N/A	"	 "	Clear
+586	7/1/1996 -- 10:52 PM	66.9 °F	55.0 °F	66%	29.85 in	10.0 mi	West	6.9 mph	  -	N/A	"	 "	Clear
+587	7/1/1996 -- 11:52 PM	63.0 °F	54.0 °F	72%	29.84 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Clear

@@ -1,0 +1,33 @@
+	UTC	Local Time	Temp	Dew Point	Humidity	Pressure	Visibility	Wind Direction	Wind Speed	Gust Speed	Precipitation	Events	Conditions
+0	2017-03-01 08:52:00+00:00	3/1/2017 12:52 AM	52.0 °F	46.0 °F	80%	29.93 in	10.0 mi	ESE	5.8 mph	  -	N/A	"	 "	Overcast
+1	2017-03-01 09:52:00+00:00	3/1/2017 1:52 AM	52.0 °F	46.0 °F	80%	29.89 in	10.0 mi	ESE	11.5 mph	18.4 mph	N/A	"	 "	Overcast
+2	2017-03-01 10:38:00+00:00	3/1/2017 2:38 AM	53.1 °F	46.0 °F	77%	29.84 in	10.0 mi	Variable	6.9 mph	  -	0.00 in	"	 "	Overcast
+3	2017-03-01 10:52:00+00:00	3/1/2017 2:52 AM	52.0 °F	46.0 °F	80%	29.83 in	10.0 mi	ESE	4.6 mph	  -	0.00 in	"	 "	Overcast
+4	2017-03-01 11:52:00+00:00	3/1/2017 3:52 AM	53.1 °F	46.9 °F	80%	29.81 in	10.0 mi	Variable	4.6 mph	  -	N/A	"	 "	Overcast
+5	2017-03-01 12:52:00+00:00	3/1/2017 4:52 AM	55.0 °F	48.0 °F	77%	29.78 in	10.0 mi	Calm	Calm	  -	N/A	"	 "	Overcast
+6	2017-03-01 13:52:00+00:00	3/1/2017 5:52 AM	53.1 °F	48.0 °F	83%	29.76 in	10.0 mi	Variable	5.8 mph	  -	N/A	"	 "	Overcast
+7	2017-03-01 14:52:00+00:00	3/1/2017 6:52 AM	55.9 °F	48.0 °F	75%	29.71 in	10.0 mi	Variable	6.9 mph	24.2 mph	N/A	"	 "	Mostly Cloudy
+8	2017-03-01 15:07:00+00:00	3/1/2017 7:07 AM	55.0 °F	48.0 °F	77%	29.69 in	10.0 mi	NE	5.8 mph	  -	N/A	"	 "	Mostly Cloudy
+9	2017-03-01 15:18:00+00:00	3/1/2017 7:18 AM	55.0 °F	48.0 °F	77%	29.69 in	10.0 mi	Variable	3.5 mph	  -	N/A	"	 "	Mostly Cloudy
+10	2017-03-01 15:39:00+00:00	3/1/2017 7:39 AM	57.0 °F	48.9 °F	74%	29.68 in	10.0 mi	SW	11.5 mph	24.2 mph	N/A	"	 "	Scattered Clouds
+11	2017-03-01 15:52:00+00:00	3/1/2017 7:52 AM	57.0 °F	48.9 °F	74%	29.69 in	10.0 mi	SW	10.4 mph	  -	N/A	"	 "	Scattered Clouds
+12	2017-03-01 16:10:00+00:00	3/1/2017 8:10 AM	57.0 °F	48.9 °F	74%	29.67 in	10.0 mi	West	13.8 mph	20.7 mph	N/A	"	 "	Mostly Cloudy
+13	2017-03-01 16:52:00+00:00	3/1/2017 8:52 AM	57.0 °F	48.9 °F	74%	29.69 in	10.0 mi	Variable	6.9 mph	  -	N/A	"	 "	Overcast
+14	2017-03-01 17:52:00+00:00	3/1/2017 9:52 AM	59.0 °F	50.0 °F	72%	29.62 in	10.0 mi	SW	12.7 mph	19.6 mph	N/A	"	 "	Mostly Cloudy
+15	2017-03-01 18:52:00+00:00	3/1/2017 10:52 AM	60.1 °F	51.1 °F	72%	29.58 in	10.0 mi	SSW	9.2 mph	29.9 mph	N/A	"	 "	Overcast
+16	2017-03-01 19:52:00+00:00	3/1/2017 11:52 AM	61.0 °F	51.1 °F	70%	29.52 in	10.0 mi	Variable	6.9 mph	19.6 mph	N/A	"	 "	Overcast
+17	2017-03-01 20:12:00+00:00	3/1/2017 12:12 PM	62.1 °F	51.1 °F	67%	29.49 in	10.0 mi	SSE	4.6 mph	  -	N/A	"	 "	Overcast
+18	2017-03-01 20:52:00+00:00	3/1/2017 12:52 PM	64.0 °F	51.1 °F	63%	29.47 in	10.0 mi	Variable	6.9 mph	  -	N/A	"	 "	Mostly Cloudy
+19	2017-03-01 21:52:00+00:00	3/1/2017 1:52 PM	64.0 °F	51.1 °F	63%	29.41 in	10.0 mi	Variable	6.9 mph	  -	N/A	"	 "	Mostly Cloudy
+20	2017-03-01 22:52:00+00:00	3/1/2017 2:52 PM	62.1 °F	52.0 °F	70%	29.41 in	10.0 mi	WSW	12.7 mph	19.6 mph	0.00 in	Rain	Light Rain
+21	2017-03-01 23:49:00+00:00	3/1/2017 3:49 PM	62.6 °F	51.8 °F	68%	29.38 in	10.0 mi	WSW	9.2 mph	21.9 mph	0.00 in	"	 "	Mostly Cloudy
+22	2017-03-01 23:52:00+00:00	3/1/2017 3:52 PM	62.1 °F	52.0 °F	70%	29.38 in	10.0 mi	WSW	8.1 mph	21.9 mph	0.00 in	"	 "	Mostly Cloudy
+23	2017-03-02 00:52:00+00:00	3/1/2017 4:52 PM	62.1 °F	52.0 °F	70%	29.34 in	10.0 mi	WNW	5.8 mph	  -	N/A	"	 "	Mostly Cloudy
+24	2017-03-02 01:31:00+00:00	3/1/2017 5:31 PM	63.0 °F	52.0 °F	67%	29.33 in	10.0 mi	WSW	10.4 mph	28.8 mph	N/A	"	 "	Mostly Cloudy
+25	2017-03-02 01:52:00+00:00	3/1/2017 5:52 PM	62.1 °F	51.1 °F	67%	29.34 in	10.0 mi	WSW	9.2 mph	21.9 mph	N/A	"	 "	Scattered Clouds
+26	2017-03-02 02:52:00+00:00	3/1/2017 6:52 PM	62.1 °F	51.1 °F	67%	29.34 in	10.0 mi	Variable	5.8 mph	20.7 mph	N/A	"	 "	Clear
+27	2017-03-02 03:52:00+00:00	3/1/2017 7:52 PM	61.0 °F	50.0 °F	67%	29.35 in	10.0 mi	WSW	10.4 mph	23.0 mph	N/A	"	 "	Partly Cloudy
+28	2017-03-02 04:52:00+00:00	3/1/2017 8:52 PM	60.1 °F	46.9 °F	62%	29.33 in	10.0 mi	West	8.1 mph	  -	N/A	"	 "	Clear
+29	2017-03-02 05:52:00+00:00	3/1/2017 9:52 PM	59.0 °F	46.9 °F	64%	29.31 in	10.0 mi	WNW	6.9 mph	  -	N/A	"	 "	Partly Cloudy
+30	2017-03-02 06:52:00+00:00	3/1/2017 10:52 PM	59.0 °F	46.9 °F	64%	29.30 in	10.0 mi	West	9.2 mph	  -	N/A	"	 "	Partly Cloudy
+31	2017-03-02 07:52:00+00:00	3/1/2017 11:52 PM	59.0 °F	46.0 °F	62%	29.29 in	10.0 mi	West	8.1 mph	16.1 mph	N/A	"	 "	Overcast
