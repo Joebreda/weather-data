@@ -6,33 +6,55 @@ import xlrd
 import datetime
 import timezonefinder
 import pytz
-
-
+import os.path
+import calendar
+import time
 # ---------------------------------------------------- WEB SCRAPER -----------------------------------------------------
 
 
 '''
                                                    PROJECT DESCRIPTION
+                                                   Instructions & Features:
+                                                              
+                 FOR THIS SPECIFIC VERSION: If you would like to recreate a CSV file DELETE IT FROM DIRECTORY
                                                    
-    Method: fetch_data -- takes in a given airport code, year, month and day and finds the given URL on weather 
-underground associated with those parameters. scrapes the table housing hourly weather metrics and deposites them into
-a pandas data frame and prints to CSV
-    Method: Scrape -- Follows same procedure as previous method however takes in just the airport code and iterates 
-through all dates from present to the earliest recorded hourly weather data. and returns a data frame of all hourly data
-gathered for that weather station.
-    Method Find_Nearest_Airports -- takes in an excel CSV file that I manually filled in with all longitudes and 
-latitudes associated with the given list of eGauges and uses Geopy's great circle calculator to find the airport within
-minimum distance. Also uses timezonefinder library to form a timezone column for each airport so I can form a UTC column
-later in the final output. Then builds a pandas data frame with those values and prints to CSV
-    Method Scrape_All_Airports -- reads in the CSV file created in the previous method and uses just the airport code 
-column to form a list of airport codes. Iterates through that list using each airport code as an input for the scrape 
-method such that a unique CSV file with all hourly data for every airports is created. 
+- Once run creates procedurally a CSV file for every airport in list of egauges and associated airports 
+- Many egauges have common nearest airports and so Scrape_All method handles this by checking if a specific airport
+has already been scrapped (FOR THE SPECIFIED YEAR)
+- If the year after the specified year was scrapped -- it appends to that year. for example if KRDU2016 exists and you
+try to scrape KRDU2015 it will check if KRDU2016 exists and if it does it will simply append the new data and rename it
+KRDU2015. the date therefore specifies the earliest year in chronological order. 
+- Many airports have missing days in data: thus scrape method has 2 built in end conditions, once a years worth of data 
+has passed, or once there has been 50 days straight of no data
+- fetch_data method is the exact same as scrape method but only for a specific date specified (single day)
+- find_nearest_airports method takes in an excel file of egauges, longitudes and latitudes and returns a list of 
+egauges with their associated nearest airports, timezones and distances.
+
+- Scrape_all method SHOULD check to see if the CSV file for an airport has already been generated and then skip it and 
+move on to the next airport. This should allow for 2 things. You can terminate and restart a run without unnecessarily 
+scraping the same data again -- AND it should allow you to skip over egauges that have the same the same nearest airport
+
+
+                                                    Predicted changes 
+                - Use Pendulum or Dateutil instead of pytz
+                - Appendable CSV files that dont reset but just add new information to existing CSV files
+                - Remove Units from Column
+                - add solar column using a new method
+                
+                                                    Known issues 
+                                                    -UTC time column, Local time column and Naive time column (as it
+                                                    appeared on WU website) do not match but datetime objects are equal
+                                                    -Sometimes client error 'connection reset by peers' due to security
+                                                    -Sometimes 'Connection aborted.', BadStatusLine("''",)) error
+                                                    -Sometimes run freezes due to bad internet connection and doesnt 
+                                                    resolve upon establishing connection
 '''
 
 
-def fetch_data(airport_code, year, month, day):
+def fetch_data(airport_code, year, month, day, timezone):
+    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.0; WOW64; rv:24.0) Gecko/20100101 Firefox/24.0'}
     url = "https://www.wunderground.com/history/airport/%s/%s/%s/%s/DailyHistory.html" % (airport_code, year, month, day)
-    req = requests.get(url)
+    req = requests.get(url, headers=headers)
     soup = BeautifulSoup(req.content, "lxml")
     metrics = []
     # columns
@@ -49,28 +71,43 @@ def fetch_data(airport_code, year, month, day):
     percip = []
     events = []
     conditions = []
+    test_local_time = []
+    timezones = []
+    unix_time = []
     # columns
     closer_look = soup.find_all("tr", {"class": "no-metars"})
     for stuff in closer_look:
-        metrics.append(stuff.text + ',')  # forms a list of Strings of metrics for each hour entry in a day
-    for hours in range(len(metrics)):                   # ORIGINALLY had metrics[0] as len but i think this needs to be hours in entire day
-        temp_list = []                                  # temporary list that resets I think for every hour
-        metrics[hours] = metrics[hours].split('\n')     # splits each hour of string data into a list with empty slots
-        for data in metrics[hours]:                     # for all those entries including empty slots
-            if len(data) >= 1:                          # if the slot isnt empty
-                temp_list.append(data)                  # append it to this temporary list that resets every day
+        metrics.append(stuff.text + ',')
+    for hours in range(len(metrics)):
+        temp_list = []
+        metrics[hours] = metrics[hours].split('\n')
+        for data in metrics[hours]:
+            if len(data) >= 1:
+                temp_list.append(data)
         hour.append(str(month) + '/' + str(day) + '/' + str(year) + ' ' + temp_list[0])
-        # --------------------------------------------------- T E S T --------------------------------------------------
+
+        # ------------------------------------------ L O C A L I Z E  --------------------------------------------------
+
         naive_time = datetime.datetime.strptime(str(month) + '/' + str(day) + '/' + str(year) + ' ' + temp_list[0],
                                               '%m/%d/%Y %I:%M %p')
-        local_timezone = pytz.timezone("America/Los_Angeles")
-        local_dt = local_timezone.localize(naive_time, is_dst=None)
+        epoch0 = pytz.utc.localize(datetime.datetime(1970, 1, 1))
+        local_timezone = pytz.timezone(timezone)
+        local_dt = local_timezone.normalize(local_timezone.localize(naive_time))  # , ???is_dst=True
         utc_dt = local_dt.astimezone(pytz.utc)
+        unix_dt = float((utc_dt - epoch0).total_seconds())
+        #unix_dt = float(utc_dt.strftime('%s'))  # can print nonUTC times as seconds
+        #unix_dt = time.localtime(unix_dt) #sets dst to 1
+        unix_dt = time.gmtime(unix_dt)
+        #print unix_dt
+        unix_dt = calendar.timegm(unix_dt)  # converts to timestamp
         UTC.append(utc_dt)
-        # --------------------------------------------------- T E S T --------------------------------------------------
+        unix_time.append(unix_dt)
+
+        # ------------------------------------------ L O C A L I Z E  --------------------------------------------------
+
         temp.append(temp_list[1])
         dew_point.append(temp_list[2])
-        humidity.append(temp_list[3])                        # appends to all the column categories
+        humidity.append(temp_list[3])
         pressure.append(temp_list[4])
         visibility.append(temp_list[5])
         wind_direction.append(temp_list[6])
@@ -79,8 +116,13 @@ def fetch_data(airport_code, year, month, day):
         percip.append(temp_list[9])
         events.append(temp_list[10])
         conditions.append(temp_list[11])
+        test_local_time.append(local_dt)
+        timezones.append(local_timezone)
+    unix_column = pd.DataFrame(unix_time, columns=['timestamp'])
     UTC_column = pd.DataFrame(UTC, columns=['UTC'])
-    time_column = pd.DataFrame(hour, columns=['Local Time'])
+    local_time_column = pd.DataFrame(test_local_time, columns=['Local Time'])
+    timezone_column = pd.DataFrame(timezones, columns=['Timezone'])
+    time_column = pd.DataFrame(hour, columns=['WU time'])
     temp_column = pd.DataFrame(temp, columns=['Temp'])
     dew_column = pd.DataFrame(dew_point, columns=['Dew Point'])
     humidity_column = pd.DataFrame(humidity, columns=['Humidity'])
@@ -92,10 +134,12 @@ def fetch_data(airport_code, year, month, day):
     precipitation_column = pd.DataFrame(percip, columns=['Precipitation'])
     events_column = pd.DataFrame(events, columns=['Events'])
     conditions_column = pd.DataFrame(conditions, columns=['Conditions'])
-    hourly_dataframe = pd.concat([UTC_column, time_column, temp_column, dew_column, humidity_column, pressure_column,
-                                  visibility_column, wind_direction_column, wind_speed_column, gust_speed_column,
-                                  precipitation_column, events_column, conditions_column], join='outer', axis=1)
-    hourly_dataframe.to_csv(airport_code + '-NEW.csv', sep='\t', encoding='utf-8')
+    hourly_dataframe = pd.concat([unix_column, UTC_column, local_time_column, time_column, timezone_column,
+                                  temp_column, dew_column, humidity_column,
+                                  pressure_column, visibility_column, wind_direction_column, wind_speed_column,
+                                  gust_speed_column,precipitation_column, events_column, conditions_column],
+                                 join='outer', axis=1)
+    hourly_dataframe.to_csv(airport_code + '-NEW.csv', sep=',', encoding='utf-8')
     return hourly_dataframe
 
 
@@ -103,15 +147,30 @@ def fetch_data(airport_code, year, month, day):
 # ------------------------------------ utilizing web scraper and data frame --------------------------------------------
 
 
-def scrape(airport_code, timezone):
-    date = datetime.date(1997, 7, 27)     # 1996, 7, 30: TEST change back to .today()
-    tdelta = datetime.timedelta(days=200)   # TEST should be days=1 Defined change variable for datetime object
-    url = "https://www.wunderground.com/history/airport/%s/%s/%s/%s/DailyHistory.html" % (airport_code, date.year, date.month, date.day)
-    req = requests.get(url)                                     # requests download HTML specified above
+def scrape(egauge, airport_code, timezone, start_year):
+    # ----------------------------------- setting end times for specific egauges ---------------------------------------
+    # only works if fill_list.csv is the same size as egauge_nearest_airports.csv
+    full_list = pd.read_csv('full_list.csv', sep=',')
+    homes = full_list['Homes'].tolist()
+    records = full_list['Earliest Record'].tolist()
+    # maybe add an if statement to handle the missing links and or delete them from the list.
+    index_number = homes.index(egauge)
+    end_date_timestamp = records[index_number]
+    end_date = datetime.date.fromtimestamp(int(end_date_timestamp)).strftime('%Y-%m-%d')
+    # ----------------------------------- setting end times for specific egauges ---------------------------------------
+    start_date = datetime.date(start_year, 12, 31)    # datetime.date(2016, 12, 31)   2016,5,4, 12, 31
+    date = start_date
+    # end_date = datetime.date((start_year-1), 12, 31)
+    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.0; WOW64; rv:24.0) Gecko/20100101 Firefox/24.0'}
+    tdelta = datetime.timedelta(days=1)   # TEST should be days=1 Defined change variable for datetime object
+    url = "https://www.wunderground.com/history/airport/%s/%s/%s/%s/DailyHistory.html" % (airport_code, date.year,
+                                                                                          date.month, date.day)
+    req = requests.get(url, headers=headers)                    # requests download HTML specified above | header disgus
     soup = BeautifulSoup(req.content, "lxml")                   # organizes HTML
     # columns
     UTC = []
     hour = []
+    timezones = []
     temp = []
     dew_point = []
     humidity = []
@@ -123,12 +182,27 @@ def scrape(airport_code, timezone):
     percip = []
     events = []
     conditions = []
+    test_local_time = []
+    unix_time = []
     # columns
-    while soup.find_all("tr", {"class": "no-metars"}):          # loops until HTML page no longer includes hourly table
-        print airport_code + ' on ' + str(date.month) + '/' + str(date.day) + '/' + str(date.year) + " exists"  # TEST
+    counter = 0  # this is here as a safety catch so we can scrape even after missing days
+    while soup.find_all("tr", {"class": "no-metars"}) or counter <= 50:  # loops until HTML page empty for a full month
+        # TEST print airport_code + ' on ' + str(date.month) + '/' + str(date.day) + '/' + str(date.year) + " exists"  # TEST
         # -----------------------------------------------Loop body------------------------------------------------------
         metrics = []                                          # I originally had it form a list of hours and metrics
+        counter = 0                                           # resets counter if loop finds a table to scrape
         closer_look = soup.find_all("tr", {"class": "no-metars"})   # Forms the list of all hours
+        if len(closer_look) <= 1:    # this condition makes the loop restart for missing
+            # TEST print "Date has no table"                               # dates
+            counter += 1
+            date = date - tdelta  # Changes date to 1 day in the past
+            if date <= end_date:
+                break
+            url = "https://www.wunderground.com/history/airport/%s/%s/%s/%s/DailyHistory.html" % (
+                airport_code, date.year, date.month, date.day)  # repeats process of requests but for new date
+            req = requests.get(url, headers=headers)
+            soup = BeautifulSoup(req.content, "lxml")
+            continue
         for stuff in closer_look:
             metrics.append(stuff.text + ',')  # forms a list of Strings of metrics for each hour entry in a day
         for hours in range(
@@ -138,14 +212,21 @@ def scrape(airport_code, timezone):
             for data in metrics[hours]:  # for all those entries including empty slots
                 if len(data) >= 1:  # if the slot isnt empty
                     temp_list.append(data)  # append it to this temporary list that resets every day
-            hour.append(str(date.month) + '/' + str(date.day) + '/' + str(date.year) + ' -- ' + temp_list[0])
+            hour.append(str(date.month) + '/' + str(date.day) + '/' + str(date.year) + ' ' + temp_list[0])
             # ------------------------------------- This portion strictly for UTC column -------------------------------
             naive_time = datetime.datetime.strptime(str(date.month) + '/' + str(date.day) + '/' + str(date.year) + ' '
                                                     + temp_list[0], '%m/%d/%Y %I:%M %p')
+            epoch0 = pytz.utc.localize(datetime.datetime(1970, 1, 1))
             local_timezone = pytz.timezone(timezone)
-            local_dt = local_timezone.localize(naive_time, is_dst=None)
+            local_dt = local_timezone.normalize(local_timezone.localize(naive_time))  # , is_dst=True
             utc_dt = local_dt.astimezone(pytz.utc)
-            UTC.append(utc_dt)
+            unix_dt = float((utc_dt - epoch0).total_seconds())
+            unix_dt = time.gmtime(unix_dt)  # sets dst to 0
+            unix_dt = calendar.timegm(unix_dt)  # converts to timestamp
+            # UTC.append(utc_dt)
+            # timezones.append(timezone)
+            # test_local_time.append(local_dt)
+            unix_time.append(unix_dt)
             # ------------------------------------- This portion strictly for UTC column -------------------------------
             temp.append(temp_list[1])
             if len(temp_list) >= 14:
@@ -170,16 +251,21 @@ def scrape(airport_code, timezone):
                 percip.append(temp_list[9])
                 events.append(temp_list[10])
                 conditions.append(temp_list[11])
-        print "SCRAPED" + '\n'                              # used to view procedurally what is happening
+        # print TEST  "SCRAPED" + '\n'                              # used to view procedurally what is happening
         # ------------------------------------------Looping conditions--------------------------------------------------
         date = date - tdelta                                    # Changes date to 1 day in the past
+        if date <= end_date:
+            break
         url = "https://www.wunderground.com/history/airport/%s/%s/%s/%s/DailyHistory.html" % (
             airport_code, date.year, date.month, date.day)      # repeats process of requests but for new date
-        req = requests.get(url)
+        req = requests.get(url, headers=headers)
         soup = BeautifulSoup(req.content, "lxml")
     # -------------------------------- OUTSIDE OF LOOP: Forms new Data base from these lists ---------------------------
-    UTC_column = pd.DataFrame(UTC, columns=['UTC'])
-    time_column = pd.DataFrame(hour, columns=['Local time'])
+    unix_time_column = pd.DataFrame(unix_time, columns=['Timestamp'])
+    # UTC_column = pd.DataFrame(UTC, columns=['UTC'])
+    time_column = pd.DataFrame(hour, columns=['WU Local time'])
+    # test_local_time_column = pd.DataFrame(test_local_time, columns=['TZ aware local time'])
+    # timezone_column = pd.DataFrame(timezones, columns=['timezone'])
     temp_column = pd.DataFrame(temp, columns=['Temp'])
     dew_column = pd.DataFrame(dew_point, columns=['Dew Point'])
     humidity_column = pd.DataFrame(humidity, columns=['Humidity'])
@@ -191,13 +277,20 @@ def scrape(airport_code, timezone):
     precipitation_column = pd.DataFrame(percip, columns=['Precipitation'])
     events_column = pd.DataFrame(events, columns=['Events'])
     conditions_column = pd.DataFrame(conditions, columns=['Conditions'])
-    hourly_dataframe_full = pd.concat([UTC_column, time_column, temp_column, dew_column, humidity_column,
-                                       pressure_column, visibility_column, wind_direction_column, wind_speed_column,
-                                       gust_speed_column, precipitation_column, events_column, conditions_column],
-                                      join='outer', axis=1)
-    hourly_dataframe_full.to_csv(airport_code + '-WeatherHistory.csv', sep='\t', encoding='utf-8')
-    return hourly_dataframe_full
+    hourly_dataframe_full = pd.concat([unix_time_column, time_column, temp_column, dew_column,
+                                       humidity_column, pressure_column, visibility_column, wind_direction_column,
+                                       wind_speed_column, gust_speed_column, precipitation_column, events_column,
+                                       conditions_column], join='outer', axis=1)
+    # UTC_column, test_local_time_column, timezone_column
 
+    # ----------------------------------------- A P P E N D E R  O R  N O T --------------------------------------------
+
+    if os.path.isfile(airport_code + '-WeatherHistory.csv'):        # + str(start_year+1)
+        previously_scraped = pd.read_csv(airport_code + '-WeatherHistory.csv', sep=',')
+        hourly_dataframe_full = previously_scraped.append(hourly_dataframe_full, ignore_index=True)
+        # hourly_dataframe_full = pd.concat(previously_scraped, hourly_dataframe_full)
+    hourly_dataframe_full.to_csv(airport_code + '-WeatherHistory.csv', sep=',', encoding='utf-8', index=False)
+    return hourly_dataframe_full
 
 # -------------------------------- FINDS NEAREST AIRPORT TO GIVEN EGAUGES FROM LIST ------------------------------------
 
@@ -241,36 +334,41 @@ def find_nearest_airports(egauge_data):
     # ---------------------------------- Forms new Data base from these lists ------------------------------------------
     df1 = pd.DataFrame(egauge_names, columns=['eGauge'])        # forming database columns from lists
     df2 = pd.DataFrame(airports_by_index, columns=['Airport Code'])
-    dftimezone = pd.DataFrame(timezones, columns=['Airport timezone'])  # **********************************************
+    dftimezone = pd.DataFrame(timezones, columns=['Airport timezone'])
     df3 = pd.DataFrame(minimums, columns=['Distance between'])
-    finished_dataframe = pd.concat([df1, df2, dftimezone, df3], join='outer', axis=1)  # *******************************
-    finished_dataframe.to_csv('eGauges nearest airport.csv', sep='\t', encoding='utf-8')         # write to CSV
+    finished_dataframe = pd.concat([df1, df2, dftimezone, df3], join='outer', axis=1)
+    finished_dataframe.to_csv('eGauges-nearest-airport.csv', sep=',', encoding='utf-8')         # write to CSV
     return finished_dataframe, airports_by_index
 
 
 # ------------------------------------------- AUTOMATED HTML SHIFTER ---------------------------------------------------
 
-
-def scrape_all_airports(egauges):
-    df = pd.read_csv(egauges, sep='\t')                       # takes in dataframe of egauges and nearest airports
-    print df
+def scrape_all_airports(egauges, start):
+    df = pd.read_csv(egauges, sep=',')                       # takes in dataframe of egauges and nearest airports
     airports = df['Airport Code'].tolist()                    # uses the airport code to scrape each website
     timezones = df['Airport timezone'].tolist()               # uses timezones to make UTC column
+    homes = df['eGauge'].tolist()
+    scrapped = []                                             # makes sure we dont have to repeat multiple airports
     for index in range(len(airports)):
-        scrape(airports[index], timezones[index])
+        if os.path.isfile(airports[index] + str(start) + '-WeatherHistory.csv'):
+            scrapped.append(airports[index])                            # of files that already got done.
+        if airports[index] in scrapped:
+            continue
+        else:
+            scrapped.append(airports[index])        # so you dont have to scrape the same airports twice
+            try:
+                print scrape(homes[index], airports[index], timezones[index], start)
+            except requests.ConnectionError, e:
+                print e
+            except requests.ConnectTimeout, e:
+                print e
+            except requests.exceptions.RequestException as e:
+                print e
     return airports
 
 
-'''
-Finally:
-remove units from columns and place them in the header. 
-learn how to append a list so i dont have to do it over and over again for the entire thing
-'''
-
-
 # ----------------------------------------------METHOD CALLS------------------------------------------------------------
-# print fetch_data("KAQW", 2017, 3, 1)
+#print fetch_data("KRDU", 2016, 12, 30, 'America/New_York')
 # print find_nearest_airports('egauge_data.xlsx')
-# print scrape('KAQW', "America/Los_Angeles")
-print scrape_all_airports('eGauges nearest airport.csv')
-
+# print scrape('KRDU', 'America/New_York', 2016)  # 'KAQW', "America/Los_Angeles"
+print scrape_all_airports('eGauges-nearest-airport.csv', 2017)
