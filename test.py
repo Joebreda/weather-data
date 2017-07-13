@@ -16,44 +16,31 @@ import time
                                                    PROJECT DESCRIPTION
                                                    Instructions & Features:
                                                               
-                 FOR THIS SPECIFIC VERSION: If you would like to recreate a CSV file DELETE IT FROM DIRECTORY
                                                    
-- Once run creates procedurally a CSV file for every airport in list of egauges and associated airports 
+- procedurally constructs a database of weather metrics for all airports which were found using longitudes and latitudes
+ which were found using egauges. This list of airports syncs with the list of earliest recorded solar dates from the 
+ full_list.csv file output from collecting solar data to record just the right amount of weather metrics for each egauge
 - Many egauges have common nearest airports and so Scrape_All method handles this by checking if a specific airport
-has already been scrapped (FOR THE SPECIFIED YEAR)
-- If the year after the specified year was scrapped -- it appends to that year. for example if KRDU2016 exists and you
-try to scrape KRDU2015 it will check if KRDU2016 exists and if it does it will simply append the new data and rename it
-KRDU2015. the date therefore specifies the earliest year in chronological order. 
-- Many airports have missing days in data: thus scrape method has 2 built in end conditions, once a years worth of data 
-has passed, or once there has been 50 days straight of no data
-- fetch_data method is the exact same as scrape method but only for a specific date specified (single day)
-- find_nearest_airports method takes in an excel file of egauges, longitudes and latitudes and returns a list of 
-egauges with their associated nearest airports, timezones and distances.
+has already been scrapped (in this specific run)
+- safety catch is used in loop using counter to distinguish between airports that have no data and airports that only
+have missing data. (100 days without data in a row: moves on to next airport)
 
-- Scrape_all method SHOULD check to see if the CSV file for an airport has already been generated and then skip it and 
-move on to the next airport. This should allow for 2 things. You can terminate and restart a run without unnecessarily 
-scraping the same data again -- AND it should allow you to skip over egauges that have the same the same nearest airport
+- fetch_single_date_data method used only for testing
+- find_nearest_airports method makes airport list from manually generated egauge lust
 
-
-                                                    Predicted changes 
-                - Use Pendulum or Dateutil instead of pytz
-                - Appendable CSV files that dont reset but just add new information to existing CSV files
-                - Remove Units from Column
-                - add solar column using a new method
-                
-                                                    Known issues 
-                                                    -UTC time column, Local time column and Naive time column (as it
-                                                    appeared on WU website) do not match but datetime objects are equal
-                                                    -Sometimes client error 'connection reset by peers' due to security
-                                                    -Sometimes 'Connection aborted.', BadStatusLine("''",)) error
-                                                    -Sometimes run freezes due to bad internet connection and doesnt 
-                                                    resolve upon establishing connection
+                                                    KNOWN ISSUES
+- If a csv file already exists for a given airport it will append that csv file with either new or duplicate data.
+I am working on a database cleaning script that will automatically remove all duplicates and will trim units .
+- A few airports found using the find_nearest_airport method are not on weather underground and thus collect no data.
+    As a result I need to find some way to determine which airports do not have any data faster
+    I also need to find a way to move on to the next nearest airport if possible. 
 '''
 
 
-def fetch_data(airport_code, year, month, day, timezone):
+def fetch_single_date_data(airport_code, year, month, day, timezone):
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.0; WOW64; rv:24.0) Gecko/20100101 Firefox/24.0'}
-    url = "https://www.wunderground.com/history/airport/%s/%s/%s/%s/DailyHistory.html" % (airport_code, year, month, day)
+    url = "https://www.wunderground.com/history/airport/%s/%s/%s/%s/DailyHistory.html" % (airport_code, year, month,
+                                                                                          day)
     req = requests.get(url, headers=headers)
     soup = BeautifulSoup(req.content, "lxml")
     metrics = []
@@ -156,13 +143,14 @@ def scrape(egauge, airport_code, timezone, start_year):
     # maybe add an if statement to handle the missing links and or delete them from the list.
     index_number = homes.index(egauge)
     end_date_timestamp = records[index_number]
-    end_date = datetime.date.fromtimestamp(int(end_date_timestamp)).strftime('%Y-%m-%d')
-    # ----------------------------------- setting end times for specific egauges ---------------------------------------
-    start_date = datetime.date(start_year, 12, 31)    # datetime.date(2016, 12, 31)   2016,5,4, 12, 31
+    end_date_str = datetime.date.fromtimestamp(int(end_date_timestamp)).strftime('%Y-%m-%d')
+    end_date = datetime.datetime.strptime(end_date_str, '%Y-%m-%d').date()
+    # --------------------------------- Pulling the data from respective addresses -------------------------------------
+    start_date = datetime.date(start_year, 7, 1)    # datetime.date(2016, 12, 31)   2016,5,4, 12, 31
     date = start_date
     # end_date = datetime.date((start_year-1), 12, 31)
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.0; WOW64; rv:24.0) Gecko/20100101 Firefox/24.0'}
-    tdelta = datetime.timedelta(days=1)   # TEST should be days=1 Defined change variable for datetime object
+    tdelta = datetime.timedelta(days=365)   # TEST should be days=1 Defined change variable for datetime object
     url = "https://www.wunderground.com/history/airport/%s/%s/%s/%s/DailyHistory.html" % (airport_code, date.year,
                                                                                           date.month, date.day)
     req = requests.get(url, headers=headers)                    # requests download HTML specified above | header disgus
@@ -185,16 +173,17 @@ def scrape(egauge, airport_code, timezone, start_year):
     test_local_time = []
     unix_time = []
     # columns
-    counter = 0  # this is here as a safety catch so we can scrape even after missing days
-    while soup.find_all("tr", {"class": "no-metars"}) or counter <= 50:  # loops until HTML page empty for a full month
-        # TEST print airport_code + ' on ' + str(date.month) + '/' + str(date.day) + '/' + str(date.year) + " exists"  # TEST
+    # counter = 0  # this is here as a safety catch so we can scrape even after missing days
+    while soup.find_all("tr", {"class": "no-metars"}):  # loops until HTML page empty for a full month
+        # or counter <= 100
+        # print airport_code + ' on ' + str(date.month) + '/' + str(date.day) + '/' + str(date.year) + " exists"  # TEST
         # -----------------------------------------------Loop body------------------------------------------------------
         metrics = []                                          # I originally had it form a list of hours and metrics
-        counter = 0                                           # resets counter if loop finds a table to scrape
+        # counter = 0                                           # resets counter if loop finds a table to scrape
         closer_look = soup.find_all("tr", {"class": "no-metars"})   # Forms the list of all hours
         if len(closer_look) <= 1:    # this condition makes the loop restart for missing
             # TEST print "Date has no table"                               # dates
-            counter += 1
+            # counter += 1
             date = date - tdelta  # Changes date to 1 day in the past
             if date <= end_date:
                 break
@@ -212,6 +201,8 @@ def scrape(egauge, airport_code, timezone, start_year):
             for data in metrics[hours]:  # for all those entries including empty slots
                 if len(data) >= 1:  # if the slot isnt empty
                     temp_list.append(data)  # append it to this temporary list that resets every day
+                if len(temp_list) < 12:
+                    continue
             hour.append(str(date.month) + '/' + str(date.day) + '/' + str(date.year) + ' ' + temp_list[0])
             # ------------------------------------- This portion strictly for UTC column -------------------------------
             naive_time = datetime.datetime.strptime(str(date.month) + '/' + str(date.day) + '/' + str(date.year) + ' '
@@ -251,7 +242,7 @@ def scrape(egauge, airport_code, timezone, start_year):
                 percip.append(temp_list[9])
                 events.append(temp_list[10])
                 conditions.append(temp_list[11])
-        # print TEST  "SCRAPED" + '\n'                              # used to view procedurally what is happening
+        # print "SCRAPED" + '\n'                              # used to view procedurally what is happening
         # ------------------------------------------Looping conditions--------------------------------------------------
         date = date - tdelta                                    # Changes date to 1 day in the past
         if date <= end_date:
@@ -323,8 +314,18 @@ def find_nearest_airports(egauge_data):
         min_dist = 1000000000000                                # initially large value: greater than any real distance
         airport_ID = ''                                         # initializing empty string at the start of every loop
         for ports in range(len(longitudes)):                    # inner loop that compares distances to airports
-            if great_circle((egauge_latitudes[gauges], egauge_longitudes[gauges]), (latitudes[ports], longitudes[ports])).miles < min_dist:
-                min_dist = great_circle((egauge_latitudes[gauges], egauge_longitudes[gauges]), (latitudes[ports], longitudes[ports])).miles
+            if great_circle((egauge_latitudes[gauges], egauge_longitudes[gauges]), (latitudes[ports],
+                                                                                longitudes[ports])).miles < min_dist\
+                    and calls[ports] != 'KDNR' \
+                    and calls[ports] != 'NEJ' \
+                    and calls[ports] != 'C96' \
+                    and calls[ports] != 'KSEW' \
+                    and calls[ports] != 'LRY' \
+                    and calls[ports] != 'K1PW' \
+                    and calls[ports] != 'PHIK' \
+                    and calls[ports] != 'KNXX':
+                min_dist = great_circle((egauge_latitudes[gauges], egauge_longitudes[gauges]), (latitudes[ports],
+                                                                                            longitudes[ports])).miles
                 airport_ID = calls[ports]                       # smallest distance is saved to min_dist and name to ID
                 timezone = tzf.timezone_at(lng=longitudes[ports], lat=latitudes[ports])  # finds timezone of airport
         minimums.append(min_dist)                               # now OUTSIDE of the loop we form list of closest ports
@@ -357,7 +358,7 @@ def scrape_all_airports(egauges, start):
         else:
             scrapped.append(airports[index])        # so you dont have to scrape the same airports twice
             try:
-                print scrape(homes[index], airports[index], timezones[index], start)
+                scrape(homes[index], airports[index], timezones[index], start)
             except requests.ConnectionError, e:
                 print e
             except requests.ConnectTimeout, e:
@@ -368,7 +369,7 @@ def scrape_all_airports(egauges, start):
 
 
 # ----------------------------------------------METHOD CALLS------------------------------------------------------------
-#print fetch_data("KRDU", 2016, 12, 30, 'America/New_York')
+#print fetch_single_date_data("KRDU", 2016, 12, 30, 'America/New_York')
 # print find_nearest_airports('egauge_data.xlsx')
-# print scrape('KRDU', 'America/New_York', 2016)  # 'KAQW', "America/Los_Angeles"
+# print scrape('egauge804', 'PHOG', 'Pacific/Honolulu', 2017)  # 'KAQW', "America/Los_Angeles"
 print scrape_all_airports('eGauges-nearest-airport.csv', 2017)
