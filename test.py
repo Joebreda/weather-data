@@ -145,12 +145,14 @@ def scrape(egauge, airport_code, timezone, start_year):
     end_date_timestamp = records[index_number]
     end_date_str = datetime.date.fromtimestamp(int(end_date_timestamp)).strftime('%Y-%m-%d')
     end_date = datetime.datetime.strptime(end_date_str, '%Y-%m-%d').date()
+    print end_date
     # --------------------------------- Pulling the data from respective addresses -------------------------------------
     start_date = datetime.date(start_year, 7, 1)    # datetime.date(2016, 12, 31)   2016,5,4, 12, 31
     date = start_date
+    passed_end_date = False
     # end_date = datetime.date((start_year-1), 12, 31)
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.0; WOW64; rv:24.0) Gecko/20100101 Firefox/24.0'}
-    tdelta = datetime.timedelta(days=365)   # TEST should be days=1 Defined change variable for datetime object
+    tdelta = datetime.timedelta(days=1)   # TEST should be days=1 Defined change variable for datetime object
     url = "https://www.wunderground.com/history/airport/%s/%s/%s/%s/DailyHistory.html" % (airport_code, date.year,
                                                                                           date.month, date.day)
     req = requests.get(url, headers=headers)                    # requests download HTML specified above | header disgus
@@ -174,9 +176,9 @@ def scrape(egauge, airport_code, timezone, start_year):
     unix_time = []
     # columns
     # counter = 0  # this is here as a safety catch so we can scrape even after missing days
-    while soup.find_all("tr", {"class": "no-metars"}):  # loops until HTML page empty for a full month
+    while soup.find_all("tr", {"class": "no-metars"}) or passed_end_date == False:  # loops until HTML page empty for a full month
         # or counter <= 100
-        # print airport_code + ' on ' + str(date.month) + '/' + str(date.day) + '/' + str(date.year) + " exists"  # TEST
+        print airport_code + ' on ' + str(date.month) + '/' + str(date.day) + '/' + str(date.year) + " exists"  # TEST
         # -----------------------------------------------Loop body------------------------------------------------------
         metrics = []                                          # I originally had it form a list of hours and metrics
         # counter = 0                                           # resets counter if loop finds a table to scrape
@@ -242,10 +244,11 @@ def scrape(egauge, airport_code, timezone, start_year):
                 percip.append(temp_list[9])
                 events.append(temp_list[10])
                 conditions.append(temp_list[11])
-        # print "SCRAPED" + '\n'                              # used to view procedurally what is happening
+        print "SCRAPED" + '\n'                              # used to view procedurally what is happening
         # ------------------------------------------Looping conditions--------------------------------------------------
         date = date - tdelta                                    # Changes date to 1 day in the past
         if date <= end_date:
+            passed_end_date = True
             break
         url = "https://www.wunderground.com/history/airport/%s/%s/%s/%s/DailyHistory.html" % (
             airport_code, date.year, date.month, date.day)      # repeats process of requests but for new date
@@ -372,4 +375,11 @@ def scrape_all_airports(egauges, start):
 #print fetch_single_date_data("KRDU", 2016, 12, 30, 'America/New_York')
 # print find_nearest_airports('egauge_data.xlsx')
 # print scrape('egauge804', 'PHOG', 'Pacific/Honolulu', 2017)  # 'KAQW', "America/Los_Angeles"
-print scrape_all_airports('eGauges-nearest-airport.csv', 2017)
+# print scrape('egauge1625', 'KDAL', 'America/Chicago', 2017)
+# print scrape('egauge1891', 'KABH', 'America/Denver', 2017)
+#print scrape('egauge2145', 'KCPS', 'America/Chicago', 2017)
+#print scrape('egauge1805', 'KPAO', 'America/Los_Angeles', 2017)
+#print scrape('egauge2375', 'KTLH', 'America/New_York', 2017)
+#print scrape('egauge1420', 'KAUS', 'America/Chicago', 2017)
+print scrape('egauge950', 'KCHD', 'America/Phoenix', 2011)
+#print scrape_all_airports('eGauges-nearest-airport.csv', 2017)
